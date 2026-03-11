@@ -24,6 +24,7 @@ export const siteStats = stats as {
   zipSizeHuman: string;
 };
 
+const SITE = "https://morepepe.com";
 const bySlug = new Map(emojis.map((e) => [e.slug, e]));
 
 export function getEmoji(slug: string): Emoji | undefined {
@@ -34,15 +35,15 @@ export function getImageUrl(emoji: Emoji): string {
   return `/emojis/${emoji.name}`;
 }
 
-export function getFullUrl(emoji: Emoji): string {
-  return `https://morepepe.com/${emoji.slug}`;
-}
-
 export function getDirectImageUrl(emoji: Emoji): string {
-  return `https://morepepe.com/emojis/${emoji.name}`;
+  return `${SITE}/emojis/${emoji.name}`;
 }
 
 export function randomEmojis(count: number): Emoji[] {
-  const shuffled = [...emojis].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
+  const arr = [...emojis];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr.slice(0, count);
 }

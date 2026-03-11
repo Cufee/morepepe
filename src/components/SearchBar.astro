@@ -7,6 +7,8 @@
     type="search"
     placeholder="Search emojis..."
     autocomplete="off"
+    aria-controls="search-results"
+    aria-autocomplete="list"
     class="w-full rounded-xl border border-(--border) bg-(--bg-card) px-4 py-3 pl-10 text-base outline-none transition-colors focus:border-(--accent)"
   />
   <svg class="absolute top-3.5 left-3 h-5 w-5 text-(--text-muted)" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -14,55 +16,63 @@
   </svg>
   <div
     id="search-results"
-    class="absolute z-50 mt-2 hidden w-full overflow-hidden rounded-xl border border-(--border) bg-(--bg-card) shadow-xl"
+    role="listbox"
+    class="absolute z-50 mt-2 hidden max-h-96 w-full overflow-y-auto rounded-xl border border-(--border) bg-(--bg-card) shadow-xl"
   >
   </div>
 </div>
 
 <script>
-  let Fuse: any;
+  function esc(s: string) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  let initPromise: Promise<void> | null = null;
   let fuse: any;
-  let index: any[];
+
+  function init() {
+    if (!initPromise) {
+      initPromise = (async () => {
+        const [fuseModule, data] = await Promise.all([
+          import("fuse.js"),
+          fetch("/search-index.json").then((r) => r.json()),
+        ]);
+        fuse = new fuseModule.default(data, {
+          keys: [
+            { name: "n", weight: 3 },
+            { name: "t", weight: 2 },
+            { name: "d", weight: 1 },
+          ],
+          threshold: 0.4,
+          includeScore: true,
+        });
+      })();
+    }
+    return initPromise;
+  }
 
   const input = document.getElementById("search-input") as HTMLInputElement;
   const results = document.getElementById("search-results") as HTMLDivElement;
 
-  async function init() {
-    if (fuse) return;
-    const [fuseModule, data] = await Promise.all([
-      import("fuse.js"),
-      fetch("/search-index.json").then((r) => r.json()),
-    ]);
-    Fuse = fuseModule.default;
-    index = data;
-    fuse = new Fuse(index, {
-      keys: [
-        { name: "n", weight: 3 },
-        { name: "t", weight: 2 },
-        { name: "d", weight: 1 },
-      ],
-      threshold: 0.4,
-      includeScore: true,
-    });
-  }
-
   function render(items: any[]) {
     if (!items.length) {
       results.classList.add("hidden");
+      input.removeAttribute("aria-expanded");
       return;
     }
     results.classList.remove("hidden");
+    input.setAttribute("aria-expanded", "true");
     results.innerHTML = items
       .slice(0, 20)
       .map(
         (item: any) => `
-      <div class="flex items-center gap-3 border-b border-(--border) last:border-0">
-        <a href="/${item.s}" class="flex flex-1 items-center gap-3 px-4 py-2 hover:bg-(--bg)">
-          <img src="/emojis/${item.f}" alt="${item.n}" width="32" height="32" class="h-8 w-8 object-contain" />
-          <span class="flex-1 text-sm font-medium">${item.n}</span>
-          <span class="text-xs uppercase text-(--text-muted)">${item.e}</span>
+      <div class="flex items-center gap-3 border-b border-(--border) last:border-0" role="option">
+        <a href="/${esc(item.s)}" class="flex flex-1 items-center gap-3 px-4 py-2 hover:bg-(--bg)">
+          <img src="/emojis/${esc(item.f)}" alt="${esc(item.n)}" width="32" height="32" class="h-8 w-8 object-contain" />
+          <span class="flex-1 text-sm font-medium">${esc(item.n)}</span>
+          <span class="text-xs uppercase text-(--text-muted)">${esc(item.e)}</span>
         </a>
-        <a href="/emojis/${item.f}" download="${item.f}" class="px-3 py-2 text-(--text-muted) hover:text-(--accent)" title="Download">
+        <a href="/emojis/${esc(item.f)}" download="${esc(item.f)}" class="px-3 py-2 text-(--text-muted) hover:text-(--accent)" title="Download">
           <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
           </svg>
@@ -83,6 +93,7 @@
       const q = input.value.trim();
       if (!q) {
         results.classList.add("hidden");
+        input.removeAttribute("aria-expanded");
         return;
       }
       const hits = fuse.search(q).map((r: any) => r.item);
@@ -90,17 +101,17 @@
     }, 100);
   });
 
-  // Close on outside click
   document.addEventListener("click", (e) => {
     if (!(e.target as Element).closest("#search-wrap")) {
       results.classList.add("hidden");
+      input.removeAttribute("aria-expanded");
     }
   });
 
-  // Close on Escape
   input.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       results.classList.add("hidden");
+      input.removeAttribute("aria-expanded");
       input.blur();
     }
   });

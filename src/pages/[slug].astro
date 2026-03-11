@@ -12,7 +12,8 @@ const emoji = getEmoji(slug)!;
 const imageUrl = getImageUrl(emoji);
 const directImageUrl = getDirectImageUrl(emoji);
 const title = `${emoji.displayName} — morepepe`;
-const description = `${emoji.description}. ${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
+const meta = `${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
+const description = emoji.description ? `${emoji.description}. ${meta}` : meta;
 ---
 
 <Base title={title} description={description} ogImage={directImageUrl}>
@@ -103,28 +104,35 @@ const description = `${emoji.description}. ${emoji.ext.toUpperCase()}, ${emoji.f
 </Base>
 
 <script is:inline>
-  const btn = document.getElementById("copy-btn");
-  const label = document.getElementById("copy-label");
-  btn.addEventListener("click", async () => {
-    const ext = btn.dataset.ext;
-    try {
-      if (ext === "png") {
-        const res = await fetch(btn.dataset.imageUrl);
-        const blob = await res.blob();
-        await navigator.clipboard.write([
-          new ClipboardItem({ "image/png": blob }),
-        ]);
-      } else {
-        // GIFs can't be copied as images — copy the direct URL instead
-        await navigator.clipboard.writeText(btn.dataset.directUrl);
-      }
-      label.textContent = ext === "png" ? "Copied!" : "URL copied!";
-      setTimeout(() => { label.textContent = "Copy"; }, 2000);
-    } catch {
-      // Fallback: copy URL
-      await navigator.clipboard.writeText(btn.dataset.directUrl);
-      label.textContent = "URL copied!";
-      setTimeout(() => { label.textContent = "Copy"; }, 2000);
+  (function() {
+    var btn = document.getElementById("copy-btn");
+    var label = document.getElementById("copy-label");
+    if (!btn || !label) return;
+
+    function flash(text) {
+      label.textContent = text;
+      setTimeout(function() { label.textContent = "Copy"; }, 2000);
     }
-  });
+
+    btn.addEventListener("click", async function() {
+      try {
+        if (btn.dataset.ext === "png") {
+          var res = await fetch(btn.dataset.imageUrl);
+          var blob = await res.blob();
+          await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+          flash("Copied!");
+        } else {
+          await navigator.clipboard.writeText(btn.dataset.directUrl);
+          flash("URL copied!");
+        }
+      } catch {
+        try {
+          await navigator.clipboard.writeText(btn.dataset.directUrl);
+          flash("URL copied!");
+        } catch {
+          flash("Failed");
+        }
+      }
+    });
+  })();
 </script>

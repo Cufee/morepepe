@@ -49,6 +49,13 @@ const emojis = entries.map((e) => {
   };
 });
 
+// Assert slug uniqueness
+const slugSet = new Set();
+for (const e of emojis) {
+  if (slugSet.has(e.slug)) throw new Error(`Duplicate slug: ${e.slug} (${e.name})`);
+  slugSet.add(e.slug);
+}
+
 // Copy images
 for (const e of emojis) {
   copyFileSync(join(ASSETS, e.name), join(OUT, e.name));
@@ -73,9 +80,9 @@ writeFileSync(join("public", "search-index.json"), JSON.stringify(searchData));
 
 // Build zip
 const zipPath = join(OUT, "morepepe-all.zip");
+const absZip = join(process.cwd(), zipPath);
 const filesToZip = emojis.map((e) => e.name).join("\n");
-writeFileSync("/tmp/morepepe-filelist.txt", filesToZip);
-execSync(`cd ${ASSETS} && cat /tmp/morepepe-filelist.txt | xargs zip -j ${join(process.cwd(), zipPath)}`, { stdio: "pipe" });
+execSync(`zip -j '${absZip}' -@`, { input: filesToZip, cwd: ASSETS, stdio: ["pipe", "pipe", "pipe"] });
 
 const zipSize = readFileSync(zipPath).length;
 const stats = {
