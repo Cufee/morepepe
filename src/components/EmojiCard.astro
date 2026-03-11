@@ -4,10 +4,9 @@ interface Props {
   name: string;
   displayName: string;
   imageUrl: string;
-  ext: string;
 }
 
-const { slug, name, displayName, imageUrl, ext } = Astro.props;
+const { slug, name, displayName, imageUrl } = Astro.props;
 ---
 
 <div class="group relative rounded-xl border border-(--border) bg-(--bg-card) p-4 transition-colors hover:border-(--accent)">
@@ -34,7 +33,4 @@ const { slug, name, displayName, imageUrl, ext } = Astro.props;
       </svg>
     </a>
   </div>
-  <span class="absolute bottom-2 right-2 rounded bg-(--bg) px-1.5 py-0.5 text-xs text-(--text-muted) uppercase">
-    {ext}
-  </span>
 </div>
