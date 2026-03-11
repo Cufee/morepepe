@@ -461,7 +461,7 @@
     "width": 128,
     "height": 128,
     "name": "alo.png",
-    "description": "Pepe on phone, alo meme. Lowercased",
+    "description": "Pepe on phone, alo meme",
     "tags": [
       "pepe",
       "alo",
@@ -473,7 +473,7 @@
     "width": 128,
     "height": 128,
     "name": "alo-bow.png",
-    "description": "Pepe with pink bow on phone, feminine alo variant. Collapsed double o, added bow descriptor",
+    "description": "Pepe with pink bow on phone",
     "tags": [
       "pepe",
       "alo",
@@ -512,7 +512,7 @@
     "width": 128,
     "height": 128,
     "name": "apu.png",
-    "description": "Classic Apu Apustaja with simple sad face. Lowercased",
+    "description": "Classic Apu Apustaja with simple sad face",
     "tags": [
       "apu",
       "classic"
@@ -671,7 +671,7 @@
     "width": 128,
     "height": 128,
     "name": "bruh.png",
-    "description": "Pepe with flat unamused bruh expression. Lowercased",
+    "description": "Pepe with flat unamused bruh expression",
     "tags": [
       "pepe",
       "bruh",
@@ -769,7 +769,7 @@
     "width": 128,
     "height": 128,
     "name": "dankium.png",
-    "description": "Pepe inhaling from dankium tap. Lowercased, preserved meme word",
+    "description": "Pepe inhaling from dankium tap",
     "tags": [
       "pepe",
       "dankium",
@@ -842,7 +842,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-confused.png",
-    "description": "Dank Pepe with question mark, confused. Collapsed extra k, added descriptor from visual",
+    "description": "Dank Pepe with question mark, confused expression",
     "tags": [
       "dank",
       "confused",
@@ -904,7 +904,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-based.png",
-    "description": "Donk wearing dark sunglasses, based. Lowercased",
+    "description": "Donk wearing dark sunglasses, based",
     "tags": [
       "donk",
       "based",
@@ -1025,7 +1025,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-okay-happy.png",
-    "description": "Donk with bigger smile, happier okay variant",
+    "description": "Donk with bigger smile, happy expression",
     "tags": [
       "donk",
       "okay",
@@ -1289,7 +1289,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-donkium.png",
-    "description": "Donki Pepe inhaling from a labeled Donkium canister, copium variant with snout inhaler",
+    "description": "Donki Pepe inhaling from a Donkium canister",
     "tags": [
       "donki",
       "copium",
@@ -1302,7 +1302,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-copium-tank.png",
-    "description": "Donki Pepe with oxygen mask breathing from a large COPIUM tank, copium variant with tank and tube",
+    "description": "Donki Pepe with oxygen mask breathing from a COPIUM tank",
     "tags": [
       "donki",
       "copium",
@@ -1485,7 +1485,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-chadge-man.png",
-    "description": "Pepe crying intensely with heavy blue tears streaming down, Chadge variant",
+    "description": "Pepe crying intensely with heavy blue tears streaming down",
     "tags": [
       "feels",
       "chadge",
@@ -1500,7 +1500,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-dank-man.png",
-    "description": "Pepe with a tall elongated cone-shaped head, dank variant",
+    "description": "Pepe with a tall elongated cone-shaped head",
     "tags": [
       "feels",
       "dank",
@@ -1929,7 +1929,7 @@
     "width": 128,
     "height": 128,
     "name": "gladge.png",
-    "description": "happy glad Pepe frog emote",
+    "description": "Happy glad Pepe frog emote",
     "tags": [
       "pepe",
       "gladge",
@@ -1942,7 +1942,7 @@
     "width": 128,
     "height": 128,
     "name": "gladgers.png",
-    "description": "round chubby Pepe in blue outfit, glad variant",
+    "description": "Round chubby Pepe in blue outfit, glad expression",
     "tags": [
       "pepe",
       "gladgers",
@@ -2053,7 +2053,7 @@
     "width": 128,
     "height": 128,
     "name": "madge-asf.png",
-    "description": "Pepe with extremely angry furious expression, madge as f*** intensity variant",
+    "description": "Pepe with extremely angry furious expression",
     "tags": [
       "pepe",
       "madge",
@@ -2149,7 +2149,7 @@
     "width": 128,
     "height": 128,
     "name": "okaygi.png",
-    "description": "Base Okaygi emote, Pepe with wide eyes and neutral expression, Okayge family variant",
+    "description": "Pepe with wide eyes and neutral expression, Okaygi emote",
     "tags": [
       "okaygi",
       "okayge",
@@ -2204,7 +2204,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi.png",
-    "description": "base default peepi emote, happy smiling face",
+    "description": "Base default peepi emote, happy smiling face",
     "tags": [
       "peepi",
       "pepe",
@@ -2217,7 +2217,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-ask.png",
-    "description": "peepi raising finger as if asking a question or making a point",
+    "description": "Peepi raising finger as if asking a question or making a point",
     "tags": [
       "peepi",
       "ask",
@@ -2231,7 +2231,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-fricc.png",
-    "description": "peepi with pink bow giving thumbs up, fricc is meme spelling, cute feminine variant",
+    "description": "Peepi with pink bow giving thumbs up",
     "tags": [
       "peepi",
       "fricc",
@@ -2246,7 +2246,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-blushh.png",
-    "description": "peepi with pink blush marks on cheeks, blushing expression",
+    "description": "Peepi with pink blush marks on cheeks, blushing expression",
     "tags": [
       "peepi",
       "blush",
@@ -2259,7 +2259,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-crinjj.png",
-    "description": "peepi with cringe disgusted expression, squinting eyes and gritted teeth",
+    "description": "Peepi with cringe disgusted expression, squinting eyes and gritted teeth",
     "tags": [
       "peepi",
       "cringe",
@@ -2272,7 +2272,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-dejj.png",
-    "description": "peepi lying flat in bed, dejected or dead tired",
+    "description": "Peepi lying flat in bed, dejected or dead tired",
     "tags": [
       "peepi",
       "bed",
@@ -2287,7 +2287,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-dudee.png",
-    "description": "peepi with flat deadpan dude expression, neutral unimpressed look",
+    "description": "Peepi with flat deadpan dude expression, neutral unimpressed look",
     "tags": [
       "peepi",
       "dude",
@@ -2301,7 +2301,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-fatt.png",
-    "description": "peepi with chubby fat round body, smiling rotund variant",
+    "description": "Peepi with chubby round body, smiling",
     "tags": [
       "peepi",
       "fat",
@@ -2315,7 +2315,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-fingi.png",
-    "description": "peepi pointing finger to chin in thinking contemplating pose",
+    "description": "Peepi pointing finger to chin in thinking contemplating pose",
     "tags": [
       "peepi",
       "finger",
@@ -2329,7 +2329,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-flowerr.png",
-    "description": "peepi holding a red flower rose",
+    "description": "Peepi holding a red flower rose",
     "tags": [
       "peepi",
       "flower",
@@ -2343,7 +2343,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-glizzi.png",
-    "description": "peepi eating a hot dog (glizzy)",
+    "description": "Peepi eating a hot dog (glizzy)",
     "tags": [
       "peepi",
       "food",
@@ -2356,7 +2356,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-gunn.png",
-    "description": "peepi holding a gun",
+    "description": "Peepi holding a gun",
     "tags": [
       "peepi",
       "gun",
@@ -2368,7 +2368,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-happ.png",
-    "description": "peepi with a happy content smile",
+    "description": "Peepi with a happy content smile",
     "tags": [
       "peepi",
       "happy",
@@ -2380,7 +2380,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-hehe.png",
-    "description": "peepi with a sneaky mischievous hehe grin",
+    "description": "Peepi with a sneaky mischievous hehe grin",
     "tags": [
       "peepi",
       "hehe",
@@ -2393,7 +2393,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-heyy.png",
-    "description": "peepi greeting with a hey wave expression",
+    "description": "Peepi greeting with a hey wave expression",
     "tags": [
       "peepi",
       "hey",
@@ -2406,7 +2406,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-hugg.png",
-    "description": "peepi hugging itself with eyes closed in a cozy pose",
+    "description": "Peepi hugging itself with eyes closed in a cozy pose",
     "tags": [
       "peepi",
       "hug",
@@ -2419,7 +2419,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-lurkk.png",
-    "description": "peepi peeking and lurking from the bottom of the frame",
+    "description": "Peepi peeking and lurking from the bottom of the frame",
     "tags": [
       "peepi",
       "lurk",
@@ -2432,7 +2432,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-modd.png",
-    "description": "peepi holding a mod sword, moderator theme",
+    "description": "Peepi holding a mod sword, moderator theme",
     "tags": [
       "peepi",
       "mod",
@@ -2445,7 +2445,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-pojjies.png",
-    "description": "peepi crying with hands on face, pojjies expression",
+    "description": "Peepi crying with hands on face, pojjies expression",
     "tags": [
       "peepi",
       "cry",
@@ -2458,7 +2458,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-salutt.png",
-    "description": "peepi doing a salute gesture",
+    "description": "Peepi doing a salute gesture",
     "tags": [
       "peepi",
       "salute",
@@ -2470,7 +2470,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-sitt.png",
-    "description": "peepi sitting down in blue hoodie",
+    "description": "Peepi sitting down in blue hoodie",
     "tags": [
       "peepi",
       "sitting",
@@ -2483,7 +2483,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-staree.png",
-    "description": "peepi staring blankly with neutral expression",
+    "description": "Peepi staring blankly with neutral expression",
     "tags": [
       "peepi",
       "stare",
@@ -2496,7 +2496,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-suss.png",
-    "description": "peepi with suspicious sus squinting expression",
+    "description": "Peepi with suspicious sus squinting expression",
     "tags": [
       "peepi",
       "sus",
@@ -2509,7 +2509,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-tink.png",
-    "description": "peepi in thinking pose with hand on chin",
+    "description": "Peepi in thinking pose with hand on chin",
     "tags": [
       "peepi",
       "think",
@@ -2523,7 +2523,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-uwuu.png",
-    "description": "peepi with uwu cute face and blush marks",
+    "description": "Peepi with uwu cute face and blush marks",
     "tags": [
       "peepi",
       "uwu",
@@ -2536,7 +2536,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-weirjj.png",
-    "description": "peepi with weird uncomfortable displeased expression",
+    "description": "Peepi with weird uncomfortable displeased expression",
     "tags": [
       "peepi",
       "weird",
@@ -2549,7 +2549,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-wikked.png",
-    "description": "peepi wearing rainbow colorful sunglasses looking wicked cool",
+    "description": "Peepi wearing rainbow colorful sunglasses looking wicked cool",
     "tags": [
       "peepi",
       "wicked",
@@ -2564,7 +2564,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cute-angry.png",
-    "description": "peepo with cute angry expression furrowed brows and teary eyes",
+    "description": "Peepo with cute angry expression furrowed brows and teary eyes",
     "tags": [
       "peepo",
       "cute",
@@ -2578,7 +2578,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cute-angry-arms-crossed.png",
-    "description": "peepo cute angry with arms crossed over chest",
+    "description": "Peepo cute angry with arms crossed over chest",
     "tags": [
       "peepo",
       "cute",
@@ -2592,7 +2592,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cute-angry-bow.png",
-    "description": "peepo cute angry wearing pink bow on head",
+    "description": "Peepo cute angry wearing pink bow on head",
     "tags": [
       "peepo",
       "cute",
@@ -2607,7 +2607,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-finger-up.png",
-    "description": "peepo smiling and pointing finger upward",
+    "description": "Peepo smiling and pointing finger upward",
     "tags": [
       "peepo",
       "finger",
@@ -2620,7 +2620,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-glad-rose.png",
-    "description": "peepo happily holding a red rose",
+    "description": "Peepo happily holding a red rose",
     "tags": [
       "peepo",
       "glad",
@@ -2634,7 +2634,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-knife.png",
-    "description": "peepo hand holding a large knife",
+    "description": "Peepo hand holding a large knife",
     "tags": [
       "peepo",
       "knife",
@@ -2647,7 +2647,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-finger-middle.png",
-    "description": "peepo giving the middle finger rude gesture, variant distinct from peepo-finger-up",
+    "description": "Peepo giving the middle finger",
     "tags": [
       "peepo",
       "finger",
@@ -2661,7 +2661,7 @@
     "width": 128,
     "height": 128,
     "name": "pepo-nerdge.png",
-    "description": "pepo wearing glasses with smug nerdy nerdge expression",
+    "description": "Pepo wearing glasses with smug nerdy nerdge expression",
     "tags": [
       "pepo",
       "nerdge",
@@ -2675,7 +2675,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-swag-tracksuit.png",
-    "description": "pepe wearing adidas tracksuit with swag pose",
+    "description": "Pepe wearing adidas tracksuit with swag pose",
     "tags": [
       "pepe",
       "swag",
@@ -2689,7 +2689,7 @@
     "width": 128,
     "height": 128,
     "name": "sadge-drip.png",
-    "description": "sadge pepe with a tear or snot dripping down face",
+    "description": "Sadge pepe with a tear or snot dripping down face",
     "tags": [
       "sadge",
       "pepe",
@@ -2703,7 +2703,7 @@
     "width": 128,
     "height": 128,
     "name": "sadge-blob.png",
-    "description": "round chubby blob-shaped sadge pepe crying in blue outfit",
+    "description": "Round chubby blob-shaped sadge pepe crying in blue outfit",
     "tags": [
       "sadge",
       "blob",
@@ -2718,7 +2718,7 @@
     "width": 128,
     "height": 128,
     "name": "smadge-cry.png",
-    "description": "smadge pepe crying with open distressed mouth and streaming tears",
+    "description": "Smadge pepe crying with open distressed mouth and streaming tears",
     "tags": [
       "smadge",
       "cry",
@@ -2733,7 +2733,7 @@
     "width": 128,
     "height": 128,
     "name": "smadge-pout.png",
-    "description": "smadge pepe variant with pouty closed mouth and single tear, distinct from smadge-cry",
+    "description": "Smadge Pepe with pouty closed mouth and single tear",
     "tags": [
       "smadge",
       "pout",
@@ -2748,7 +2748,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-smug.png",
-    "description": "classic smug Pepe with sly grin and hand on chin",
+    "description": "Classic smug Pepe with sly grin and hand on chin",
     "tags": [
       "pepe",
       "smug",
@@ -2772,7 +2772,7 @@
     "width": 128,
     "height": 128,
     "name": "starege.png",
-    "description": "classic Starege emote - Pepe with huge bulging eyes and exaggerated blank stare",
+    "description": "Classic Starege emote - Pepe with huge bulging eyes and exaggerated blank stare",
     "tags": [
       "pepe",
       "starege",
@@ -2812,7 +2812,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-sure-squint.png",
-    "description": "Pepe with sarcastic squinting eyes and smirk - sure buddy expression, variant of Sure with squinting descriptor",
+    "description": "Pepe with sarcastic squinting eyes and smirk, sure buddy expression",
     "tags": [
       "pepe",
       "sure",
@@ -2883,7 +2883,7 @@
     "width": 128,
     "height": 128,
     "name": "weird-champ.png",
-    "description": "pepe with skeptical rectangular eyes and frown, classic WeirdChamp emote",
+    "description": "Pepe with skeptical rectangular eyes and frown, classic WeirdChamp emote",
     "tags": [
       "pepe",
       "weird",
@@ -2896,7 +2896,7 @@
     "width": 128,
     "height": 128,
     "name": "weird-dankge.png",
-    "description": "pepe wearing a dunce/wizard hat with weird dank expression",
+    "description": "Pepe wearing a dunce/wizard hat with weird dank expression",
     "tags": [
       "pepe",
       "weird",
@@ -2910,7 +2910,7 @@
     "width": 128,
     "height": 128,
     "name": "weird-dude.png",
-    "description": "pepe standing with hands on hips wearing blue underwear, smug weird pose",
+    "description": "Pepe standing with hands on hips wearing blue underwear, smug weird pose",
     "tags": [
       "pepe",
       "weird",
@@ -2925,7 +2925,7 @@
     "width": 128,
     "height": 128,
     "name": "weird-dude-shirt.png",
-    "description": "pepe standing with hands on hips wearing a blue shirt, variant of weird-dude but clothed",
+    "description": "Pepe standing with hands on hips wearing a blue shirt",
     "tags": [
       "pepe",
       "weird",
@@ -2940,7 +2940,7 @@
     "width": 128,
     "height": 128,
     "name": "weird-weird.png",
-    "description": "pepe with awkward sideways smirk expression, doubly weird look",
+    "description": "Pepe with awkward sideways smirk expression, doubly weird look",
     "tags": [
       "pepe",
       "weird",
@@ -2953,7 +2953,7 @@
     "width": 128,
     "height": 128,
     "name": "wowgi.png",
-    "description": "pepe with wide eyes and mouth agape in amazement, wow expression with -gi suffix",
+    "description": "Pepe with wide eyes and mouth agape in amazement",
     "tags": [
       "pepe",
       "wow",
@@ -2967,7 +2967,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-hands-up.png",
-    "description": "apu pepe with both hands raised up in celebration or excitement",
+    "description": "Apu pepe with both hands raised up in celebration or excitement",
     "tags": [
       "apu",
       "pepe",
@@ -2981,7 +2981,7 @@
     "width": 128,
     "height": 128,
     "name": "bedge-wokege.png",
-    "description": "pepe lying in bed wearing a sleeping cap, hybrid bedge and wokege emote, removed numeric separator",
+    "description": "Pepe lying in bed wearing a sleeping cap, bedge and wokege emote",
     "tags": [
       "pepe",
       "bedge",
@@ -2996,7 +2996,7 @@
     "width": 128,
     "height": 128,
     "name": "booba.png",
-    "description": "pepe looking sideways with bulging eyes distracted, classic booba emote",
+    "description": "Pepe looking sideways with bulging eyes distracted, classic booba emote",
     "tags": [
       "pepe",
       "booba",
@@ -3010,7 +3010,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-cry.png",
-    "description": "pepe crying with tears streaming and mouth wide open in distress",
+    "description": "Pepe crying with tears streaming and mouth wide open in distress",
     "tags": [
       "pepe",
       "cry",
@@ -3024,7 +3024,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-blush.png",
-    "description": "dank pepe with blushing embarrassed expression in green hood",
+    "description": "Dank pepe with blushing embarrassed expression in green hood",
     "tags": [
       "dank",
       "pepe",
@@ -3037,7 +3037,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-choke.png",
-    "description": "dank pepe with mouth wide open being choked",
+    "description": "Dank pepe with mouth wide open being choked",
     "tags": [
       "dank",
       "pepe",
@@ -3050,7 +3050,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-hug.png",
-    "description": "two dank pepes hugging each other",
+    "description": "Two dank pepes hugging each other",
     "tags": [
       "dank",
       "pepe",
@@ -3063,7 +3063,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-approved.png",
-    "description": "donk pepe giving thumbs up approval gesture",
+    "description": "Donk pepe giving thumbs up approval gesture",
     "tags": [
       "donk",
       "pepe",
@@ -3076,7 +3076,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-buff.png",
-    "description": "donk pepe with muscular buff body flexing",
+    "description": "Donk pepe with muscular buff body flexing",
     "tags": [
       "donk",
       "pepe",
@@ -3090,7 +3090,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-chomp.png",
-    "description": "donk pepe with mouth open wide chomping biting",
+    "description": "Donk pepe with mouth open wide chomping biting",
     "tags": [
       "donk",
       "pepe",
@@ -3104,7 +3104,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-comfy.png",
-    "description": "donk pepe wrapped in cozy dark hoodie looking comfy and snug",
+    "description": "Donk pepe wrapped in cozy dark hoodie looking comfy and snug",
     "tags": [
       "donk",
       "pepe",
@@ -3118,7 +3118,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-drip.png",
-    "description": "donk pepe wearing cool sunglasses with drip and swagger",
+    "description": "Donk pepe wearing cool sunglasses with drip and swagger",
     "tags": [
       "donk",
       "pepe",
@@ -3133,7 +3133,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-ez.png",
-    "description": "donk pepe wearing sunglasses with smug relaxed EZ easy expression",
+    "description": "Donk pepe wearing sunglasses with smug relaxed EZ easy expression",
     "tags": [
       "donk",
       "pepe",
@@ -3148,7 +3148,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-flower.png",
-    "description": "donk pepe holding a sunflower",
+    "description": "Donk pepe holding a sunflower",
     "tags": [
       "donk",
       "pepe",
@@ -3162,7 +3162,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-hmm.png",
-    "description": "donk character with thinking hmm expression",
+    "description": "Donk character with thinking hmm expression",
     "tags": [
       "donk",
       "hmm",
@@ -3175,7 +3175,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-ignore.png",
-    "description": "donk character with back turned, ignoring",
+    "description": "Donk character with back turned, ignoring",
     "tags": [
       "donk",
       "ignore",
@@ -3187,7 +3187,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-l.png",
-    "description": "donk character taking an L, holding red object",
+    "description": "Donk character taking an L, holding red object",
     "tags": [
       "donk",
       "l",
@@ -3200,7 +3200,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-nerd.png",
-    "description": "donk character wearing glasses with nerd expression",
+    "description": "Donk character wearing glasses with nerd expression",
     "tags": [
       "donk",
       "nerd",
@@ -3213,7 +3213,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-praise.png",
-    "description": "donk character with arms raised in praise worship pose",
+    "description": "Donk character with arms raised in praise worship pose",
     "tags": [
       "donk",
       "praise",
@@ -3226,7 +3226,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sass-ass.png",
-    "description": "donk character showing backside in a sassy pose",
+    "description": "Donk character showing backside in a sassy pose",
     "tags": [
       "donk",
       "sass",
@@ -3239,7 +3239,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sass-fuck-you.png",
-    "description": "donk character flipping middle finger with pink nail, sassy expression",
+    "description": "Donk character flipping middle finger with pink nail, sassy expression",
     "tags": [
       "donk",
       "sass",
@@ -3252,7 +3252,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-shrug-palm.png",
-    "description": "donk character shrugging with one open palm extended outward",
+    "description": "Donk character shrugging with one open palm extended outward",
     "tags": [
       "donk",
       "shrug",
@@ -3265,7 +3265,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sip.png",
-    "description": "donk character sipping from a cup or mug",
+    "description": "Donk character sipping from a cup or mug",
     "tags": [
       "donk",
       "sip",
@@ -3278,7 +3278,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sit-car.png",
-    "description": "donk character sitting in a small toy car or vehicle",
+    "description": "Donk character sitting in a small toy car or vehicle",
     "tags": [
       "donk",
       "sit",
@@ -3492,7 +3492,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-giga-wide-eyes.png",
-    "description": "MonkaGIGA variant with huge wide staring eyes, zoomed in face, removing number 2",
+    "description": "MonkaGIGA with huge wide staring eyes, zoomed in face",
     "tags": [
       "monka",
       "giga",
@@ -3554,7 +3554,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-s.png",
-    "description": "classic monkaS nervous sweating pepe looking to the side",
+    "description": "Classic monkaS nervous sweating pepe looking to the side",
     "tags": [
       "monka",
       "pepe",
@@ -3568,7 +3568,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-sss.png",
-    "description": "multiple nervous pepes huddled together, group variant of monkaS",
+    "description": "Multiple nervous Pepes huddled together",
     "tags": [
       "monka",
       "pepe",
@@ -3583,7 +3583,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-speed.png",
-    "description": "pepe with motion blur effect moving very fast",
+    "description": "Pepe with motion blur effect moving very fast",
     "tags": [
       "monka",
       "pepe",
@@ -3598,7 +3598,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-think.png",
-    "description": "nervous pepe with hand on chin in thinking pose",
+    "description": "Nervous pepe with hand on chin in thinking pose",
     "tags": [
       "monka",
       "pepe",
@@ -3612,7 +3612,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-w.png",
-    "description": "pepe with wide open eyes staring intensely in alarm",
+    "description": "Pepe with wide open eyes staring intensely in alarm",
     "tags": [
       "monka",
       "pepe",
@@ -3628,7 +3628,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-nuke.png",
-    "description": "pepe with glowing nuclear explosion reflections in eyes on dark purple background",
+    "description": "Pepe with glowing nuclear explosion reflections in eyes on dark purple background",
     "tags": [
       "pepe",
       "nuke",
@@ -3643,7 +3643,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-aloowo.png",
-    "description": "peepi with pink bow holding phone to ear, allo/hello phone call pose",
+    "description": "Peepi with pink bow holding phone to ear, allo/hello phone call pose",
     "tags": [
       "peepi",
       "phone",
@@ -3658,7 +3658,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-lovee.png",
-    "description": "peepi holding up one red heart with both hands, smiling warmly",
+    "description": "Peepi holding up one red heart with both hands, smiling warmly",
     "tags": [
       "peepi",
       "love",
@@ -3672,7 +3672,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-loveee.png",
-    "description": "peepi hands forming a heart shape gesture closeup on blue background, no face visible",
+    "description": "Peepi hands forming a heart shape gesture closeup on blue background, no face visible",
     "tags": [
       "peepi",
       "love",
@@ -3687,7 +3687,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-bejj-together.png",
-    "description": "two peepi characters snuggled together under a red blanket in bed",
+    "description": "Two peepi characters snuggled together under a red blanket in bed",
     "tags": [
       "peepi",
       "bejj",
@@ -3703,7 +3703,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-birff.png",
-    "description": "peepi frog wearing a party hat with confetti, birthday celebration",
+    "description": "Peepi frog wearing a party hat with confetti, birthday celebration",
     "tags": [
       "peepi",
       "birthday",
@@ -3717,7 +3717,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-businejj-sitt.png",
-    "description": "peepi frog wearing a business suit and holding a briefcase, sitting business pose",
+    "description": "Peepi frog wearing a business suit and holding a briefcase, sitting business pose",
     "tags": [
       "peepi",
       "business",
@@ -3731,7 +3731,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-dentt.png",
-    "description": "peepi frog with a dented or squished flat head shape",
+    "description": "Peepi frog with a dented or squished flat head shape",
     "tags": [
       "peepi",
       "dent",
@@ -3745,7 +3745,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-donk.png",
-    "description": "peepi frog wearing a yellow donk cone hat, peepi donk crossover",
+    "description": "Peepi frog wearing a yellow donk cone hat, peepi donk crossover",
     "tags": [
       "peepi",
       "donk",
@@ -3759,7 +3759,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-evill.png",
-    "description": "peepi frog with red devil horns and trident, evil devil expression",
+    "description": "Peepi frog with red devil horns and trident, evil devil expression",
     "tags": [
       "peepi",
       "evil",
@@ -3773,7 +3773,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-feels-wowjj.png",
-    "description": "peepi frog with blushing pink cheeks and amazed wow expression, resting pose",
+    "description": "Peepi frog with blushing pink cheeks and amazed wow expression, resting pose",
     "tags": [
       "peepi",
       "feels",
@@ -3787,7 +3787,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-highh.png",
-    "description": "peepi frog with droopy half-closed red eyes, stoned or high expression",
+    "description": "Peepi frog with droopy half-closed red eyes, stoned or high expression",
     "tags": [
       "peepi",
       "high",
@@ -3801,7 +3801,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-hmjj.png",
-    "description": "peepi frog with a hmm thinking expression, hand near mouth pondering",
+    "description": "Peepi frog with a hmm thinking expression, hand near mouth pondering",
     "tags": [
       "peepi",
       "hm",
@@ -3815,7 +3815,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-kissesss.png",
-    "description": "peepi frog puckering lips for a kiss with eyes closed and happy expression",
+    "description": "Peepi frog puckering lips for a kiss with eyes closed and happy expression",
     "tags": [
       "peepi",
       "kiss",
@@ -3829,7 +3829,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-laff.png",
-    "description": "peepi frog laughing with tears of joy, big grin and happy tears",
+    "description": "Peepi frog laughing with tears of joy, big grin and happy tears",
     "tags": [
       "peepi",
       "laugh",
@@ -3843,7 +3843,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-luv-but-fricc.png",
-    "description": "peepi holding heart with thumbs up but also giving middle finger",
+    "description": "Peepi holding heart with thumbs up but also giving middle finger",
     "tags": [
       "peepi",
       "love",
@@ -3857,7 +3857,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-nice.png",
-    "description": "peepi standing with arms folded looking content and nice",
+    "description": "Peepi standing with arms folded looking content and nice",
     "tags": [
       "peepi",
       "nice",
@@ -3870,7 +3870,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-no-look.png",
-    "description": "peepi covering eyes with both hands, refusing to look",
+    "description": "Peepi covering eyes with both hands, refusing to look",
     "tags": [
       "peepi",
       "no-look",
@@ -3884,7 +3884,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-nuggie.png",
-    "description": "peepi hugging a large chicken nugget lovingly",
+    "description": "Peepi hugging a large chicken nugget lovingly",
     "tags": [
       "peepi",
       "nugget",
@@ -3898,7 +3898,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-owo-gun.png",
-    "description": "peepi-owo with pink bow holding a gun with blush marks",
+    "description": "Peepi-owo with pink bow holding a gun with blush marks",
     "tags": [
       "peepi-owo",
       "gun",
@@ -3912,7 +3912,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-owo-lurk-heart.png",
-    "description": "peepi-owo peeking up from bottom edge holding a heart with blush marks",
+    "description": "Peepi-owo peeking up from bottom edge holding a heart with blush marks",
     "tags": [
       "peepi-owo",
       "lurk",
@@ -3927,7 +3927,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-owo-sit.png",
-    "description": "peepi-owo sitting down in a cute round blob pose",
+    "description": "Peepi-owo sitting down in a cute round blob pose",
     "tags": [
       "peepi-owo",
       "sit",
@@ -3940,7 +3940,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-owo-bedge.png",
-    "description": "peepi-owo with pink bow peeking over a bottom edge, smiling with blush marks",
+    "description": "Peepi-owo with pink bow peeking over a bottom edge, smiling with blush marks",
     "tags": [
       "peepi-owo",
       "bedge",
@@ -3955,7 +3955,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-owo-xd.png",
-    "description": "peepi-owo with eyes squinted shut and blush marks in classic XD laughing expression",
+    "description": "Peepi-owo with eyes squinted shut and blush marks in classic XD laughing expression",
     "tags": [
       "peepi-owo",
       "xd",
@@ -3969,7 +3969,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-pizza.png",
-    "description": "peepi eating a slice of pizza",
+    "description": "Peepi eating a slice of pizza",
     "tags": [
       "peepi",
       "pizza",
@@ -3982,7 +3982,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-pleadingg.png",
-    "description": "peepi with sad pleading expression",
+    "description": "Peepi with sad pleading expression",
     "tags": [
       "peepi",
       "pleading",
@@ -3994,7 +3994,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-poutt.png",
-    "description": "peepi with arms crossed in a pouty sulking expression",
+    "description": "Peepi with arms crossed in a pouty sulking expression",
     "tags": [
       "peepi",
       "pout",
@@ -4006,7 +4006,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-sippi.png",
-    "description": "peepi sipping a drink with eyes closed contentedly",
+    "description": "Peepi sipping a drink with eyes closed contentedly",
     "tags": [
       "peepi",
       "sip",
@@ -4019,7 +4019,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-smokee.png",
-    "description": "peepi smoking a cigarette with smoke coming out",
+    "description": "Peepi smoking a cigarette with smoke coming out",
     "tags": [
       "peepi",
       "smoke",
@@ -4031,7 +4031,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-wikked-fricc.png",
-    "description": "peepi wearing rainbow sunglasses looking wicked cool with a finger point",
+    "description": "Peepi wearing rainbow sunglasses looking wicked cool with a finger point",
     "tags": [
       "peepi",
       "wicked",
@@ -4045,7 +4045,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-yikes.png",
-    "description": "peepi with clenched teeth grimacing yikes expression",
+    "description": "Peepi with clenched teeth grimacing yikes expression",
     "tags": [
       "peepi",
       "yikes",
@@ -4058,7 +4058,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-4k.png",
-    "description": "peepo taking a photo with a camera, 4K photography theme",
+    "description": "Peepo taking a photo with a camera, 4K photography theme",
     "tags": [
       "peepo",
       "camera",
@@ -4071,7 +4071,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-angel.png",
-    "description": "peepo dressed as an angel with halo and white wings",
+    "description": "Peepo dressed as an angel with halo and white wings",
     "tags": [
       "peepo",
       "angel",
@@ -4085,7 +4085,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-awesome.png",
-    "description": "peepo excited with big smile and arms raised looking awesome",
+    "description": "Peepo excited with big smile and arms raised looking awesome",
     "tags": [
       "peepo",
       "awesome",
@@ -4098,7 +4098,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-birthdayyyy.png",
-    "description": "peepo wearing a birthday party hat and holding a gift box",
+    "description": "Peepo wearing a birthday party hat and holding a gift box",
     "tags": [
       "peepo",
       "birthday",
@@ -4112,7 +4112,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-blush-angry.png",
-    "description": "peepo with red blushing cheeks and angry furrowed brows expression",
+    "description": "Peepo with red blushing cheeks and angry furrowed brows expression",
     "tags": [
       "peepo",
       "blush",
@@ -4124,7 +4124,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-blush-dank.png",
-    "description": "peepo with blushing cheeks and wide dopey dank eyes wearing a green hood",
+    "description": "Peepo with blushing cheeks and wide dopey dank eyes wearing a green hood",
     "tags": [
       "peepo",
       "blush",
@@ -4137,7 +4137,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-bored.png",
-    "description": "peepo with flat bored unimpressed expression resting chin on hand",
+    "description": "Peepo with flat bored unimpressed expression resting chin on hand",
     "tags": [
       "peepo",
       "bored",
@@ -4149,7 +4149,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-burg.png",
-    "description": "peepo happily holding a big burger about to eat it",
+    "description": "Peepo happily holding a big burger about to eat it",
     "tags": [
       "peepo",
       "burger",
@@ -4162,7 +4162,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-button-follow.png",
-    "description": "peepo holding a purple follow button sign",
+    "description": "Peepo holding a purple follow button sign",
     "tags": [
       "peepo",
       "follow",
@@ -4175,7 +4175,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-button-sub.png",
-    "description": "peepo holding a purple subscribe button sign",
+    "description": "Peepo holding a purple subscribe button sign",
     "tags": [
       "peepo",
       "subscribe",
@@ -4188,7 +4188,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cappin.png",
-    "description": "peepo wearing a blue cap looking sly, cappin means lying in slang",
+    "description": "Peepo wearing a blue cap looking sly, cappin means lying in slang",
     "tags": [
       "peepo",
       "cap",
@@ -4203,7 +4203,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-carried.png",
-    "description": "peepo sitting inside a yellow backpack being carried, happy expression",
+    "description": "Peepo sitting inside a yellow backpack being carried, happy expression",
     "tags": [
       "peepo",
       "carried",
@@ -4216,7 +4216,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-carry.png",
-    "description": "large peepo carrying a smaller peepo on its back, gaming carry reference",
+    "description": "Large peepo carrying a smaller peepo on its back, gaming carry reference",
     "tags": [
       "peepo",
       "carry",
@@ -4229,7 +4229,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-chocolate.png",
-    "description": "peepo with chocolate smeared around its mouth looking happy",
+    "description": "Peepo with chocolate smeared around its mouth looking happy",
     "tags": [
       "peepo",
       "chocolate",
@@ -4381,7 +4381,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-evil-scheming.png",
-    "description": "peepo with evil grin and hands pressed together in scheming pose",
+    "description": "Peepo with evil grin and hands pressed together in scheming pose",
     "tags": [
       "peepo",
       "evil",
@@ -4395,7 +4395,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-fat-chubby.png",
-    "description": "peepo with chubby appearance holding a tiny peepo on its belly",
+    "description": "Peepo with chubby appearance holding a tiny peepo on its belly",
     "tags": [
       "peepo",
       "fat",
@@ -4409,7 +4409,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-gun-pointing.png",
-    "description": "peepo holding and pointing a single gun forward",
+    "description": "Peepo holding and pointing a single gun forward",
     "tags": [
       "peepo",
       "gun",
@@ -4423,7 +4423,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-guns-dual-wield.png",
-    "description": "peepo dual-wielding two guns, one in each hand",
+    "description": "Peepo dual-wielding two guns, one in each hand",
     "tags": [
       "peepo",
       "guns",
@@ -4437,7 +4437,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hmm-hey-finger.png",
-    "description": "peepo smiling with mouth open raising one finger as if saying hey or getting attention",
+    "description": "Peepo smiling with mouth open raising one finger as if saying hey or getting attention",
     "tags": [
       "peepo",
       "hmm",
@@ -4452,7 +4452,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hmm-double-middle-finger.png",
-    "description": "peepo giving double middle fingers with angry expression",
+    "description": "Peepo giving double middle fingers with angry expression",
     "tags": [
       "peepo",
       "hmm",
@@ -4467,7 +4467,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-happy-wide-smile.png",
-    "description": "peepo with wide open happy smile showing teeth and bright excited eyes",
+    "description": "Peepo with wide open happy smile showing teeth and bright excited eyes",
     "tags": [
       "peepo",
       "happy",
@@ -4482,7 +4482,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-happy-cushion.png",
-    "description": "peepo with happy smile sitting on a blue cushion, high definition clean art style",
+    "description": "Peepo with happy smile sitting on a blue cushion, high definition clean art style",
     "tags": [
       "peepo",
       "happy",
@@ -4497,7 +4497,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hmm-thinking.png",
-    "description": "peepo with neutral pensive hmm expression looking downward in contemplation",
+    "description": "Peepo with neutral pensive hmm expression looking downward in contemplation",
     "tags": [
       "peepo",
       "hmm",
@@ -4512,7 +4512,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hmm-thumbs-up.png",
-    "description": "peepo with hmm expression giving double thumbs up like gesture",
+    "description": "Peepo with hmm expression giving double thumbs up like gesture",
     "tags": [
       "peepo",
       "hmm",
@@ -4527,7 +4527,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hmm-ok.png",
-    "description": "peepo with thoughtful hmm expression giving thumbs up",
+    "description": "Peepo with thoughtful hmm expression giving thumbs up",
     "tags": [
       "peepo",
       "hmm",
@@ -4541,7 +4541,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hug.png",
-    "description": "peepo giving itself a warm hug",
+    "description": "Peepo giving itself a warm hug",
     "tags": [
       "peepo",
       "hug",
@@ -4554,7 +4554,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hurt.png",
-    "description": "peepo looking hurt and injured with wounds",
+    "description": "Peepo looking hurt and injured with wounds",
     "tags": [
       "peepo",
       "hurt",
@@ -4568,7 +4568,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-it-clown.png",
-    "description": "peepo dressed as IT Pennywise in yellow raincoat holding red balloon",
+    "description": "Peepo dressed as IT Pennywise in yellow raincoat holding red balloon",
     "tags": [
       "peepo",
       "it",
@@ -4584,7 +4584,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-ignore.png",
-    "description": "peepo looking away dismissively, ignoring",
+    "description": "Peepo looking away dismissively, ignoring",
     "tags": [
       "peepo",
       "ignore",
@@ -4597,7 +4597,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-jail.png",
-    "description": "peepo behind jail bars looking sad and trapped",
+    "description": "Peepo behind jail bars looking sad and trapped",
     "tags": [
       "peepo",
       "jail",
@@ -4612,7 +4612,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-jedi.png",
-    "description": "peepo dressed as a Jedi wielding a green lightsaber",
+    "description": "Peepo dressed as a Jedi wielding a green lightsaber",
     "tags": [
       "peepo",
       "jedi",
@@ -4626,7 +4626,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-leave.png",
-    "description": "peepo walking away toward a door, leaving",
+    "description": "Peepo walking away toward a door, leaving",
     "tags": [
       "peepo",
       "leave",
@@ -4640,7 +4640,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-loser.png",
-    "description": "peepo making the L loser hand gesture on forehead",
+    "description": "Peepo making the L loser hand gesture on forehead",
     "tags": [
       "peepo",
       "loser",
@@ -4654,7 +4654,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-love.png",
-    "description": "peepo holding up a pink heart with a loving expression",
+    "description": "Peepo holding up a pink heart with a loving expression",
     "tags": [
       "peepo",
       "love",
@@ -4668,7 +4668,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-love-hug.png",
-    "description": "peepo squeezing a pink heart with both arms",
+    "description": "Peepo squeezing a pink heart with both arms",
     "tags": [
       "peepo",
       "love",
@@ -4681,7 +4681,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-love-offer.png",
-    "description": "peepo holding out a pink heart as if offering it",
+    "description": "Peepo holding out a pink heart as if offering it",
     "tags": [
       "peepo",
       "love",
@@ -4694,7 +4694,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-meow.png",
-    "description": "peepo wearing pink cat ears and showing cat paws",
+    "description": "Peepo wearing pink cat ears and showing cat paws",
     "tags": [
       "peepo",
       "cat",
@@ -4707,7 +4707,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-minecraft.png",
-    "description": "peepo waving next to a Minecraft grass block",
+    "description": "Peepo waving next to a Minecraft grass block",
     "tags": [
       "peepo",
       "minecraft",
@@ -4720,7 +4720,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-morning-coffee.png",
-    "description": "peepo looking tired and holding a small coffee cup",
+    "description": "Peepo looking tired and holding a small coffee cup",
     "tags": [
       "peepo",
       "coffee",
@@ -4733,7 +4733,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-no.png",
-    "description": "peepo holding a sign that says NO",
+    "description": "Peepo holding a sign that says NO",
     "tags": [
       "peepo",
       "no",
@@ -4746,7 +4746,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-notes.png",
-    "description": "peepo wearing glasses and holding a pencil ready to take notes",
+    "description": "Peepo wearing glasses and holding a pencil ready to take notes",
     "tags": [
       "peepo",
       "notes",
@@ -4760,7 +4760,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pat.png",
-    "description": "peepo being patted on the head with pink hearts floating above",
+    "description": "Peepo being patted on the head with pink hearts floating above",
     "tags": [
       "peepo",
       "pat",
@@ -4774,7 +4774,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pee.png",
-    "description": "peepo urinating into a toilet",
+    "description": "Peepo urinating into a toilet",
     "tags": [
       "peepo",
       "pee",
@@ -4787,7 +4787,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-phone.png",
-    "description": "peepo holding a corded telephone to its ear",
+    "description": "Peepo holding a corded telephone to its ear",
     "tags": [
       "peepo",
       "phone",
@@ -4800,7 +4800,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-point.png",
-    "description": "peepo grinning and pointing finger",
+    "description": "Peepo grinning and pointing finger",
     "tags": [
       "peepo",
       "point",
@@ -4812,7 +4812,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-punch.png",
-    "description": "peepo throwing a punch with fist extended",
+    "description": "Peepo throwing a punch with fist extended",
     "tags": [
       "peepo",
       "punch",
@@ -4825,7 +4825,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rose.png",
-    "description": "peepo holding a red rose with happy expression",
+    "description": "Peepo holding a red rose with happy expression",
     "tags": [
       "peepo",
       "rose",
@@ -4838,7 +4838,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-runescape.png",
-    "description": "peepo dressed as runescape mage with wizard hat and staff",
+    "description": "Peepo dressed as runescape mage with wizard hat and staff",
     "tags": [
       "peepo",
       "runescape",
@@ -4852,7 +4852,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sad.png",
-    "description": "peepo with sad droopy expression and tears",
+    "description": "Peepo with sad droopy expression and tears",
     "tags": [
       "peepo",
       "sad",
@@ -4865,7 +4865,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sad-hd.png",
-    "description": "high detail version of sad peepo crying with tears",
+    "description": "High detail version of sad peepo crying with tears",
     "tags": [
       "peepo",
       "sad",
@@ -4879,7 +4879,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-shy.png",
-    "description": "peepo looking shy and bashful with timid expression",
+    "description": "Peepo looking shy and bashful with timid expression",
     "tags": [
       "peepo",
       "shy",
@@ -4892,7 +4892,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-short-mad.png",
-    "description": "short stout peepo with angry expression and hands on hips",
+    "description": "Short stout peepo with angry expression and hands on hips",
     "tags": [
       "peepo",
       "short",
@@ -4905,7 +4905,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-shrug.png",
-    "description": "peepo shrugging with arms raised in a dunno gesture",
+    "description": "Peepo shrugging with arms raised in a dunno gesture",
     "tags": [
       "peepo",
       "shrug",
@@ -4918,7 +4918,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-birthday.png",
-    "description": "peepo sitting with birthday cake, balloons and party hat",
+    "description": "Peepo sitting with birthday cake, balloons and party hat",
     "tags": [
       "peepo",
       "birthday",
@@ -4933,7 +4933,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-chicken.png",
-    "description": "peepo sitting holding a fried chicken leg",
+    "description": "Peepo sitting holding a fried chicken leg",
     "tags": [
       "peepo",
       "sit",
@@ -4946,7 +4946,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-cowboy.png",
-    "description": "peepo sitting wearing a cowboy hat",
+    "description": "Peepo sitting wearing a cowboy hat",
     "tags": [
       "peepo",
       "sit",
@@ -4959,7 +4959,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-cute.png",
-    "description": "peepo sitting with pink bow and pink outfit looking cute",
+    "description": "Peepo sitting with pink bow and pink outfit looking cute",
     "tags": [
       "peepo",
       "sit",
@@ -4973,7 +4973,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-finger.png",
-    "description": "peepo sitting pointing up with one finger",
+    "description": "Peepo sitting pointing up with one finger",
     "tags": [
       "peepo",
       "sit",
@@ -4986,7 +4986,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-friendship.png",
-    "description": "two peepos sitting together with hearts above them",
+    "description": "Two peepos sitting together with hearts above them",
     "tags": [
       "peepo",
       "sit",
@@ -5001,7 +5001,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-gamer.png",
-    "description": "peepo sitting with headphones holding a game controller",
+    "description": "Peepo sitting with headphones holding a game controller",
     "tags": [
       "peepo",
       "sit",
@@ -5016,7 +5016,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-gun.png",
-    "description": "peepo sitting holding a gun",
+    "description": "Peepo sitting holding a gun",
     "tags": [
       "peepo",
       "sit",
@@ -5029,7 +5029,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-knife.png",
-    "description": "peepo sitting holding a knife",
+    "description": "Peepo sitting holding a knife",
     "tags": [
       "peepo",
       "sit",
@@ -5042,7 +5042,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-love.png",
-    "description": "peepo sitting holding a big red heart",
+    "description": "Peepo sitting holding a big red heart",
     "tags": [
       "peepo",
       "sit",
@@ -5055,7 +5055,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-mad.png",
-    "description": "peepo sitting with an angry mad expression and arms crossed",
+    "description": "Peepo sitting with an angry mad expression and arms crossed",
     "tags": [
       "peepo",
       "sit",
@@ -5068,7 +5068,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-pajamas.png",
-    "description": "peepo sitting in blue pajama onesie with nightcap",
+    "description": "Peepo sitting in blue pajama onesie with nightcap",
     "tags": [
       "peepo",
       "sit",
@@ -5082,7 +5082,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-pride.png",
-    "description": "peepo sitting holding a rainbow pride flag",
+    "description": "Peepo sitting holding a rainbow pride flag",
     "tags": [
       "peepo",
       "sit",
@@ -5096,7 +5096,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-stand.png",
-    "description": "peepo in blue outfit standing upright with legs visible",
+    "description": "Peepo in blue outfit standing upright with legs visible",
     "tags": [
       "peepo",
       "sit",
@@ -5110,7 +5110,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-starege.png",
-    "description": "peepo sitting with wide staring starege eyes expression",
+    "description": "Peepo sitting with wide staring starege eyes expression",
     "tags": [
       "peepo",
       "sit",
@@ -5124,7 +5124,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-arms-crossed.png",
-    "description": "peepo sitting with arms crossed and sunglasses looking cool",
+    "description": "Peepo sitting with arms crossed and sunglasses looking cool",
     "tags": [
       "peepo",
       "sit",
@@ -5139,7 +5139,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sitti.png",
-    "description": "peepo sitting in a small wheeled cart or vehicle",
+    "description": "Peepo sitting in a small wheeled cart or vehicle",
     "tags": [
       "peepo",
       "sit",
@@ -5153,7 +5153,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sleepo.png",
-    "description": "peepo sleeping with blue star-patterned nightcap",
+    "description": "Peepo sleeping with blue star-patterned nightcap",
     "tags": [
       "peepo",
       "sleep",
@@ -5168,7 +5168,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-smile-grin.png",
-    "description": "peepo with a big wide toothy grin smile, variant of peepoSmile",
+    "description": "Peepo with a big wide toothy grin",
     "tags": [
       "peepo",
       "smile",
@@ -5182,7 +5182,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-stop.png",
-    "description": "peepo holding up hand in stop gesture",
+    "description": "Peepo holding up hand in stop gesture",
     "tags": [
       "peepo",
       "stop",
@@ -5196,7 +5196,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-stop-police.png",
-    "description": "peepo dressed as police officer holding up stop hand gesture",
+    "description": "Peepo dressed as police officer holding up stop hand gesture",
     "tags": [
       "peepo",
       "stop",
@@ -5211,7 +5211,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-strong.png",
-    "description": "peepo flexing muscles with crying tears, strong emote",
+    "description": "Peepo flexing muscles with crying tears, strong emote",
     "tags": [
       "peepo",
       "strong",
@@ -5224,7 +5224,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-silent.png",
-    "description": "peepo with closed mouth, talk but not talking, silent emote",
+    "description": "Peepo with closed mouth, talk but not talking, silent emote",
     "tags": [
       "peepo",
       "silent",
@@ -5237,7 +5237,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-tall.png",
-    "description": "peepo with stretched tall body in blue outfit waving",
+    "description": "Peepo with stretched tall body in blue outfit waving",
     "tags": [
       "peepo",
       "tall",
@@ -5250,7 +5250,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-teef.png",
-    "description": "peepo showing big goofy teeth, teef grin emote",
+    "description": "Peepo showing big goofy teeth, teef grin emote",
     "tags": [
       "peepo",
       "teef",
@@ -5264,7 +5264,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-think.png",
-    "description": "peepo in thinking pose with hand on chin, contemplating",
+    "description": "Peepo in thinking pose with hand on chin, contemplating",
     "tags": [
       "peepo",
       "think",
@@ -5277,7 +5277,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-thinker.png",
-    "description": "peepo in classic Thinker sculpture pose, chin on fist",
+    "description": "Peepo in classic Thinker sculpture pose, chin on fist",
     "tags": [
       "peepo",
       "thinker",
@@ -5291,7 +5291,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-tinfoil.png",
-    "description": "peepo wearing tinfoil hat, conspiracy theorist emote",
+    "description": "Peepo wearing tinfoil hat, conspiracy theorist emote",
     "tags": [
       "peepo",
       "tinfoil",
@@ -5304,7 +5304,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-uwu.png",
-    "description": "peepo as cute cat with pink ears and UWU text, kawaii emote",
+    "description": "Peepo as cute cat with pink ears and UWU text, kawaii emote",
     "tags": [
       "peepo",
       "uwu",
@@ -5318,7 +5318,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-virgin.png",
-    "description": "peepo wearing a cap labeled VIRGIN, virgin meme emote",
+    "description": "Peepo wearing a cap labeled VIRGIN, virgin meme emote",
     "tags": [
       "peepo",
       "virgin",
@@ -5331,7 +5331,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-vodka.png",
-    "description": "peepo holding an Absolut vodka bottle, drinking emote",
+    "description": "Peepo holding an Absolut vodka bottle, drinking emote",
     "tags": [
       "peepo",
       "vodka",
@@ -5345,7 +5345,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-wtf.png",
-    "description": "peepo with shocked wide-eyed WTF expression",
+    "description": "Peepo with shocked wide-eyed WTF expression",
     "tags": [
       "peepo",
       "wtf",
@@ -5358,7 +5358,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-weird-smirk.png",
-    "description": "peepo with weird unsettled smirk expression, variant 2 renamed with descriptor",
+    "description": "Peepo with weird unsettled smirk expression",
     "tags": [
       "peepo",
       "weird",
@@ -5371,7 +5371,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-weird-stare.png",
-    "description": "peepo with weird blank deadpan stare, distinct from smirk variant",
+    "description": "Peepo with weird blank deadpan stare",
     "tags": [
       "peepo",
       "weird",
@@ -5385,7 +5385,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-what.png",
-    "description": "peepo confused with question mark above head",
+    "description": "Peepo confused with question mark above head",
     "tags": [
       "peepo",
       "what",
@@ -5398,7 +5398,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-yes-sign.png",
-    "description": "peepo holding a YES sign",
+    "description": "Peepo holding a YES sign",
     "tags": [
       "peepo",
       "yes",
@@ -5412,7 +5412,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-yikers.png",
-    "description": "peepo with yikes grimacing cringe expression",
+    "description": "Peepo with yikes grimacing cringe expression",
     "tags": [
       "peepo",
       "yikers",
@@ -5426,7 +5426,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-peek-sus.png",
-    "description": "peepo peeking from behind a brick wall with suspicious expression",
+    "description": "Peepo peeking from behind a brick wall with suspicious expression",
     "tags": [
       "peepo",
       "peek",
@@ -5442,7 +5442,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-angery.png",
-    "description": "peepo standing with arms crossed in angery upset pose",
+    "description": "Peepo standing with arms crossed in angery upset pose",
     "tags": [
       "peepo",
       "angery",
@@ -5457,7 +5457,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-angy-fat.png",
-    "description": "peepo with angy expression in chubby round fat body variant",
+    "description": "Peepo with angry expression in chubby round body",
     "tags": [
       "peepo",
       "angy",
@@ -5552,7 +5552,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-chef.png",
-    "description": "peepo wearing a chef hat, neutral expression",
+    "description": "Peepo wearing a chef hat, neutral expression",
     "tags": [
       "peepo",
       "chef",
@@ -5565,7 +5565,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-chef-smile.png",
-    "description": "peepo in full chef outfit with tall hat and wide smile, variant of peepo-chef",
+    "description": "Peepo in full chef outfit with tall hat and wide smile",
     "tags": [
       "peepo",
       "chef",
@@ -5579,7 +5579,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cry-teddy.png",
-    "description": "peepo crying while hugging a teddy bear",
+    "description": "Peepo crying while hugging a teddy bear",
     "tags": [
       "peepo",
       "cry",
@@ -5594,7 +5594,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cute-cookie.png",
-    "description": "peepo with pink bow eating a cookie, cute expression",
+    "description": "Peepo with pink bow eating a cookie, cute expression",
     "tags": [
       "peepo",
       "cute",
@@ -5608,7 +5608,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-deal-with-it.png",
-    "description": "peepo with pixel sunglasses sliding down, deal with it meme",
+    "description": "Peepo with pixel sunglasses sliding down, deal with it meme",
     "tags": [
       "peepo",
       "sunglasses",
@@ -5622,7 +5622,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-drool.png",
-    "description": "peepo drooling from mouth, dazed expression",
+    "description": "Peepo drooling from mouth, dazed expression",
     "tags": [
       "peepo",
       "drool",
@@ -5635,7 +5635,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-evil-genius.png",
-    "description": "peepo with sly smirk and finger on chin in scheming evil genius pose",
+    "description": "Peepo with sly smirk and finger on chin in scheming evil genius pose",
     "tags": [
       "peepo",
       "evil",
@@ -5650,7 +5650,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-ez-sunglasses.png",
-    "description": "chubby peepo wearing sunglasses, cool and easy vibe",
+    "description": "Chubby peepo wearing sunglasses, cool and easy vibe",
     "tags": [
       "peepo",
       "sunglasses",
@@ -5665,7 +5665,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-fake-laugh.png",
-    "description": "peepo wearing a laughing man mask over its face, fake laugh meme",
+    "description": "Peepo wearing a laughing man mask over its face, fake laugh meme",
     "tags": [
       "peepo",
       "fake",
@@ -5680,7 +5680,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-finger-point-up.png",
-    "description": "peepo pointing index finger upward with tongue out, blue hoodie",
+    "description": "Peepo pointing index finger upward with tongue out, blue hoodie",
     "tags": [
       "peepo",
       "finger",
@@ -5695,7 +5695,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-finger-point.png",
-    "description": "peepo pointing finger with tongue out",
+    "description": "Peepo pointing finger with tongue out",
     "tags": [
       "peepo",
       "finger",
@@ -5708,7 +5708,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-flower-cute.png",
-    "description": "peepo holding a cute pink flower and smiling",
+    "description": "Peepo holding a cute pink flower and smiling",
     "tags": [
       "peepo",
       "flower",
@@ -5721,7 +5721,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-gun-cat.png",
-    "description": "peepo cat variant crying while holding a gun",
+    "description": "Peepo cat crying while holding a gun",
     "tags": [
       "peepo",
       "gun",
@@ -5735,7 +5735,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hear-no-evil.png",
-    "description": "peepo covering ear in hear no evil pose",
+    "description": "Peepo covering ear in hear no evil pose",
     "tags": [
       "peepo",
       "hear-no-evil",
@@ -5748,7 +5748,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-kek.png",
-    "description": "peepo dark variant laughing hysterically, kek emote",
+    "description": "Peepo laughing hysterically, kek emote",
     "tags": [
       "peepo",
       "kek",
@@ -5761,7 +5761,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-lollipop.png",
-    "description": "small peepo sitting and licking a lollipop",
+    "description": "Small peepo sitting and licking a lollipop",
     "tags": [
       "peepo",
       "lollipop",
@@ -5775,7 +5775,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-lol.png",
-    "description": "peepo laughing out loud with big grin and squinted eyes",
+    "description": "Peepo laughing out loud with big grin and squinted eyes",
     "tags": [
       "peepo",
       "lol",
@@ -5789,7 +5789,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-mcdonalds.png",
-    "description": "peepo happily hugging a McDonalds meal bag",
+    "description": "Peepo happily hugging a McDonalds meal bag",
     "tags": [
       "peepo",
       "mcdonalds",
@@ -5803,7 +5803,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-night-teddy.png",
-    "description": "peepo sleeping in bed at night with a teddy bear under moonlight",
+    "description": "Peepo sleeping in bed at night with a teddy bear under moonlight",
     "tags": [
       "peepo",
       "night",
@@ -5818,7 +5818,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-nitro-boost.png",
-    "description": "peepo holding up a Discord Nitro Boost gem icon",
+    "description": "Peepo holding up a Discord Nitro Boost gem icon",
     "tags": [
       "peepo",
       "nitro",
@@ -5832,7 +5832,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-owo.png",
-    "description": "peepo with wide-eyed owo expression",
+    "description": "Peepo with wide-eyed owo expression",
     "tags": [
       "peepo",
       "owo",
@@ -5845,7 +5845,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pet-doggy.png",
-    "description": "peepo posing next to a small dog",
+    "description": "Peepo posing next to a small dog",
     "tags": [
       "peepo",
       "pet",
@@ -5858,7 +5858,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pet-kitty.png",
-    "description": "peepo posing next to a small cat",
+    "description": "Peepo posing next to a small cat",
     "tags": [
       "peepo",
       "pet",
@@ -5872,7 +5872,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pirate.png",
-    "description": "peepo dressed as a pirate with hat and eye patch",
+    "description": "Peepo dressed as a pirate with hat and eye patch",
     "tags": [
       "peepo",
       "pirate",
@@ -5885,7 +5885,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-poggers.png",
-    "description": "peepo with open-mouth poggers hype expression",
+    "description": "Peepo with open-mouth poggers hype expression",
     "tags": [
       "peepo",
       "poggers",
@@ -5898,7 +5898,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-punchers-right.png",
-    "description": "peepo throwing a right punch with raised fist",
+    "description": "Peepo throwing a right punch with raised fist",
     "tags": [
       "peepo",
       "punch",
@@ -5911,7 +5911,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-punchers-left.png",
-    "description": "variant of peepo-punchers with left fist punch toward viewer",
+    "description": "Peepo throwing a left punch toward viewer",
     "tags": [
       "peepo",
       "punch",
@@ -5925,7 +5925,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rifle.png",
-    "description": "peepo holding an assault rifle",
+    "description": "Peepo holding an assault rifle",
     "tags": [
       "peepo",
       "rifle",
@@ -5938,7 +5938,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sad-gamer.png",
-    "description": "peepo sitting at computer with headphones looking sad",
+    "description": "Peepo sitting at computer with headphones looking sad",
     "tags": [
       "peepo",
       "sad",
@@ -5952,7 +5952,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-yes.png",
-    "description": "peepo holding a green YES sign",
+    "description": "Peepo holding a green YES sign",
     "tags": [
       "peepo",
       "sign",
@@ -5966,7 +5966,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-no.png",
-    "description": "peepo holding a NO sign, removing numeric prefix",
+    "description": "Peepo holding a NO sign",
     "tags": [
       "peepo",
       "sign",
@@ -5979,7 +5979,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-maybe.png",
-    "description": "peepo holding a MAYBE sign, removing numeric prefix",
+    "description": "Peepo holding a MAYBE sign",
     "tags": [
       "peepo",
       "sign",
@@ -5992,7 +5992,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-cringe.png",
-    "description": "peepo holding a cringe sign, removing numeric prefix",
+    "description": "Peepo holding a CRINGE sign",
     "tags": [
       "peepo",
       "sign",
@@ -6005,7 +6005,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-pass.png",
-    "description": "peepo holding a pass sign, removing numeric prefix",
+    "description": "Peepo holding a PASS sign",
     "tags": [
       "peepo",
       "sign",
@@ -6018,7 +6018,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-trash.png",
-    "description": "peepo holding a TRASH sign, removing numeric prefix",
+    "description": "Peepo holding a TRASH sign",
     "tags": [
       "peepo",
       "sign",
@@ -6031,7 +6031,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-smash.png",
-    "description": "peepo holding a smash sign, removing numeric prefix",
+    "description": "Peepo holding a SMASH sign",
     "tags": [
       "peepo",
       "sign",
@@ -6044,7 +6044,7 @@
     "width": 128,
     "height": 128,
     "name": "peeposit-ily.png",
-    "description": "peepo sitting holding an I Love You sign, ILY acronym in lowercase kebab",
+    "description": "Peepo sitting holding an I Love You sign",
     "tags": [
       "peepo",
       "peeposit",
@@ -6059,7 +6059,7 @@
     "width": 128,
     "height": 128,
     "name": "peeposit-ugh.png",
-    "description": "peepo sitting with arms raised in frustration/ugh expression",
+    "description": "Peepo sitting with arms raised in frustration/ugh expression",
     "tags": [
       "peepo",
       "peeposit",
@@ -6074,7 +6074,7 @@
     "width": 128,
     "height": 128,
     "name": "peeposit-chair.png",
-    "description": "peepo sitting in a chair looking relaxed/bored",
+    "description": "Peepo sitting in a chair looking relaxed/bored",
     "tags": [
       "peepo",
       "peeposit",
@@ -6089,7 +6089,7 @@
     "width": 128,
     "height": 128,
     "name": "peepositti-cookie.png",
-    "description": "peepositti (tiny round sitting peepo) holding a cookie",
+    "description": "Peepositti (tiny round sitting peepo) holding a cookie",
     "tags": [
       "peepo",
       "peepositti",
@@ -6104,7 +6104,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sitting-blue-shirt.png",
-    "description": "peepo sitting with blue hoodie/shirt, removing duplicate ii suffix",
+    "description": "Peepo sitting with blue hoodie",
     "tags": [
       "peepo",
       "sitting",
@@ -6117,7 +6117,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-situp-exercise.png",
-    "description": "peepo doing a situp/crunch exercise in blue outfit",
+    "description": "Peepo doing a situp/crunch exercise in blue outfit",
     "tags": [
       "peepo",
       "situp",
@@ -6130,7 +6130,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-square-head.png",
-    "description": "peepo with a square/cube-shaped blocky head",
+    "description": "Peepo with a square/cube-shaped blocky head",
     "tags": [
       "peepo",
       "square",
@@ -6143,7 +6143,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-stare-sideways.png",
-    "description": "peepo staring to the side with wide eyes",
+    "description": "Peepo staring to the side with wide eyes",
     "tags": [
       "peepo",
       "stare",
@@ -6156,7 +6156,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-staring-left.png",
-    "description": "peepo staring to the left with wide eyes, L suffix indicates left direction",
+    "description": "Peepo staring to the left with wide eyes",
     "tags": [
       "peepo",
       "staring",
@@ -6169,7 +6169,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-stop-sign.png",
-    "description": "peepo holding up a red stop sign",
+    "description": "Peepo holding up a red stop sign",
     "tags": [
       "peepo",
       "stop",
@@ -6182,7 +6182,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sunflower.png",
-    "description": "peepo holding a yellow sunflower",
+    "description": "Peepo holding a yellow sunflower",
     "tags": [
       "peepo",
       "sunflower",
@@ -6195,7 +6195,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sunglasses-cool.png",
-    "description": "peepo wearing dark sunglasses looking cool/chill, removing version number 5",
+    "description": "Peepo wearing dark sunglasses looking cool",
     "tags": [
       "peepo",
       "sunglasses",
@@ -6208,7 +6208,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-thug-life.png",
-    "description": "peepo wearing thug life cap and pixel sunglasses, classic thug life meme",
+    "description": "Peepo wearing thug life cap and pixel sunglasses, classic thug life meme",
     "tags": [
       "peepo",
       "thug",
@@ -6223,7 +6223,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-thumbs-up.png",
-    "description": "peepo giving a thumbs up gesture wearing blue shirt",
+    "description": "Peepo giving a thumbs up gesture wearing blue shirt",
     "tags": [
       "peepo",
       "thumbs-up",
@@ -6236,7 +6236,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-thumbs-up-nice.png",
-    "description": "peepo giving thumbs up with nice gesture",
+    "description": "Peepo giving thumbs up with nice gesture",
     "tags": [
       "peepo",
       "thumbs-up",
@@ -6249,7 +6249,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-yoda.png",
-    "description": "peepo styled as Baby Yoda with sunglasses",
+    "description": "Peepo styled as Baby Yoda with sunglasses",
     "tags": [
       "peepo",
       "yoda",
@@ -6263,7 +6263,7 @@
     "width": 128,
     "height": 128,
     "name": "pepo-finger-guns.png",
-    "description": "pepo doing finger guns gesture pointing with both hands",
+    "description": "Pepo doing finger guns gesture pointing with both hands",
     "tags": [
       "pepo",
       "finger-guns",
@@ -6276,7 +6276,7 @@
     "width": 128,
     "height": 128,
     "name": "pepo-hmm.png",
-    "description": "pepo holding magnifying glass with thinking hmm expression",
+    "description": "Pepo holding magnifying glass with thinking hmm expression",
     "tags": [
       "pepo",
       "hmm",
@@ -6290,7 +6290,7 @@
     "width": 128,
     "height": 128,
     "name": "pepo-iced-coffee.png",
-    "description": "pepo lovingly enjoying an iced coffee drink with hearts",
+    "description": "Pepo lovingly enjoying an iced coffee drink with hearts",
     "tags": [
       "pepo",
       "iced-coffee",
@@ -6304,7 +6304,7 @@
     "width": 128,
     "height": 128,
     "name": "pika-pepe.png",
-    "description": "pepe frog merged with Pikachu yellow body and ears",
+    "description": "Pepe frog merged with Pikachu yellow body and ears",
     "tags": [
       "pepe",
       "pikachu",
@@ -6318,7 +6318,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-restless.png",
-    "description": "peepo with wide anxious eyes looking restless and uneasy",
+    "description": "Peepo with wide anxious eyes looking restless and uneasy",
     "tags": [
       "peepo",
       "restless",
@@ -6332,7 +6332,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-sad.png",
-    "description": "pepe frog crying with tears streaming down face",
+    "description": "Pepe frog crying with tears streaming down face",
     "tags": [
       "pepe",
       "sad",
@@ -6346,7 +6346,7 @@
     "width": 128,
     "height": 128,
     "name": "shygers.png",
-    "description": "shygers emote - shy chubby pepe blushing in blue outfit",
+    "description": "Shygers emote - shy chubby pepe blushing in blue outfit",
     "tags": [
       "shygers",
       "shy",
@@ -6361,7 +6361,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-thinking.png",
-    "description": "pepe frog with hand on chin in classic thinking pose",
+    "description": "Pepe frog with hand on chin in classic thinking pose",
     "tags": [
       "pepe",
       "thinking",
@@ -6374,7 +6374,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-umm.png",
-    "description": "pepe with awkward uncertain expression looking sideways, umm face",
+    "description": "Pepe with awkward uncertain expression looking sideways, umm face",
     "tags": [
       "pepe",
       "umm",
@@ -6388,7 +6388,7 @@
     "width": 128,
     "height": 128,
     "name": "based.gif",
-    "description": "Pepe in a suit - classic BASED emote, removing leading 1 and trailing 2",
+    "description": "Pepe in a suit, classic BASED emote",
     "tags": [
       "pepe",
       "based",
@@ -6400,7 +6400,7 @@
     "width": 128,
     "height": 128,
     "name": "based-groove.gif",
-    "description": "Pepe with headphones dancing/grooving, BASEDGROOVE emote, removing leading 1",
+    "description": "Pepe with headphones dancing and grooving",
     "tags": [
       "pepe",
       "based",
@@ -6414,7 +6414,7 @@
     "width": 128,
     "height": 128,
     "name": "blankies.gif",
-    "description": "Pepe wrapped snugly in a blanket, BLANKIES emote, removing leading 1",
+    "description": "Pepe wrapped snugly in a blanket",
     "tags": [
       "pepe",
       "blanket",
@@ -6427,7 +6427,7 @@
     "width": 128,
     "height": 128,
     "name": "bussers.gif",
-    "description": "Blue character showing backside, BUSSERS emote, removing leading 1",
+    "description": "Blue character showing backside, bussers emote",
     "tags": [
       "bussers",
       "booty",
@@ -6440,7 +6440,7 @@
     "width": 128,
     "height": 128,
     "name": "copium.gif",
-    "description": "Pepe huffing from a COPIUM oxygen mask, classic copium emote, removing leading 1",
+    "description": "Pepe huffing from a COPIUM oxygen mask",
     "tags": [
       "pepe",
       "copium",
@@ -6453,7 +6453,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-piss-man.gif",
-    "description": "Pepe with yellow piss stream, FeelsPissMan emote, removing leading 1 and converting to kebab-case",
+    "description": "Pepe with yellow piss stream",
     "tags": [
       "pepe",
       "feels",
@@ -6466,7 +6466,7 @@
     "width": 128,
     "height": 128,
     "name": "hypers.gif",
-    "description": "Pepe with arms raised in excitement, HYPERS emote, removing leading 1",
+    "description": "Pepe with arms raised in excitement",
     "tags": [
       "pepe",
       "hype",
@@ -6479,7 +6479,7 @@
     "width": 128,
     "height": 128,
     "name": "jammies.gif",
-    "description": "Pepe dancing in green pajamas, JAMMIES emote, removing leading 1 and repeated S characters",
+    "description": "Pepe dancing in green pajamas",
     "tags": [
       "pepe",
       "jammies",
@@ -6492,7 +6492,7 @@
     "width": 128,
     "height": 128,
     "name": "lubbers.gif",
-    "description": "Pepe with a floating pink heart, LUBBERS love emote, removing leading 1",
+    "description": "Pepe with a floating pink heart, love emote",
     "tags": [
       "pepe",
       "lubbers",
@@ -6505,7 +6505,7 @@
     "width": 128,
     "height": 128,
     "name": "love-streamer.gif",
-    "description": "Pepe with a video camera icon, LoveStreamer emote, removing leading 1 and converting to kebab-case",
+    "description": "Pepe with a video camera icon, love streamer emote",
     "tags": [
       "pepe",
       "love",
@@ -6519,7 +6519,7 @@
     "width": 128,
     "height": 128,
     "name": "piggies-hug-pepe.gif",
-    "description": "pig character hugging a Pepe frog",
+    "description": "Pig character hugging a Pepe frog",
     "tags": [
       "pig",
       "pepe",
@@ -6531,7 +6531,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-eyes.gif",
-    "description": "monka Pepe with wide darting eyes looking around anxiously",
+    "description": "Monka Pepe with wide darting eyes looking around anxiously",
     "tags": [
       "monka",
       "eyes",
@@ -6544,7 +6544,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-dj.gif",
-    "description": "peepo frog wearing headphones and spinning DJ turntables",
+    "description": "Peepo frog wearing headphones and spinning DJ turntables",
     "tags": [
       "peepo",
       "dj",
@@ -6557,7 +6557,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-popcorn-eat.gif",
-    "description": "peepo eating popcorn while watching, base variant",
+    "description": "Peepo eating popcorn while watching",
     "tags": [
       "peepo",
       "popcorn",
@@ -6570,7 +6570,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-popcorn-sad.gif",
-    "description": "peepo eating popcorn with a sad crying expression, variant of peepo-popcorn-eat",
+    "description": "Peepo eating popcorn with a sad crying expression",
     "tags": [
       "peepo",
       "popcorn",
@@ -6583,7 +6583,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-shades-point.gif",
-    "description": "peepo wearing sunglasses and pointing finger coolly",
+    "description": "Peepo wearing sunglasses and pointing finger coolly",
     "tags": [
       "peepo",
       "shades",
@@ -6597,7 +6597,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-shake.gif",
-    "description": "peepo shaking and trembling with a nervous expression",
+    "description": "Peepo shaking and trembling with a nervous expression",
     "tags": [
       "peepo",
       "shake",
@@ -6610,7 +6610,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-smile-gun.gif",
-    "description": "peepo smiling while pointing a gun",
+    "description": "Peepo smiling while pointing a gun",
     "tags": [
       "peepo",
       "smile",
@@ -6622,7 +6622,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-talk.gif",
-    "description": "peepo with mouth open as if speaking or talking",
+    "description": "Peepo with mouth open as if speaking or talking",
     "tags": [
       "peepo",
       "talk",
@@ -6634,7 +6634,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cookie-give.gif",
-    "description": "peepo offering and giving a cookie",
+    "description": "Peepo offering and giving a cookie",
     "tags": [
       "peepo",
       "cookie",
@@ -7049,7 +7049,7 @@
     "width": 128,
     "height": 128,
     "name": "sadge-cry.gif",
-    "description": "Sadge Pepe crying with tissue, chubby variant",
+    "description": "Sadge Pepe crying with tissue",
     "tags": [
       "sadge",
       "cry",
@@ -7119,7 +7119,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-bop-nk.gif",
-    "description": "Peepo doing BOP dance, NK color variant",
+    "description": "Peepo doing BOP dance",
     "tags": [
       "peepo",
       "bop",
@@ -7258,7 +7258,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sleepy-cozy.gif",
-    "description": "Peepo snuggled in blanket with droopy sleepy eyes, cozy in bed variant",
+    "description": "Peepo snuggled in blanket with droopy sleepy eyes",
     "tags": [
       "peepo",
       "sleepy",
@@ -7611,7 +7611,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-chadge.gif",
-    "description": "Pepe chadge emote typing at keyboard, cleaned up repeated letters from Chadgerssss",
+    "description": "Pepe chadge emote typing at keyboard",
     "tags": [
       "pepe",
       "chadge",
@@ -7639,7 +7639,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-cryger.gif",
-    "description": "Pepe crying in blue onesie pajamas, cryger emote, cleaned up repeated letters",
+    "description": "Pepe crying in blue onesie pajamas, cryger emote",
     "tags": [
       "pepe",
       "cryger",
@@ -7855,7 +7855,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-disco.gif",
-    "description": "Donki (orange triangle Pepe variant) doing a disco dance",
+    "description": "Donki Pepe doing a disco dance",
     "tags": [
       "donki",
       "disco",
@@ -8003,7 +8003,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-licka.gif",
-    "description": "Pepe with tongue out licking, lickaaa cleaned to licka",
+    "description": "Pepe with tongue out licking",
     "tags": [
       "pepe",
       "licka",
@@ -8030,7 +8030,7 @@
     "width": 128,
     "height": 128,
     "name": "madge.gif",
-    "description": "Standard Madge emote, annoyed/skeptical Pepe expression, repeated letters cleaned",
+    "description": "Annoyed skeptical Pepe expression, Madge emote",
     "tags": [
       "madge",
       "annoyed",
@@ -8043,7 +8043,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-mm-hmm.gif",
-    "description": "Pepe with smug satisfied expression, mmm-hmm reaction emote, repeated letters cleaned",
+    "description": "Pepe with smug satisfied expression, mmm-hmm reaction",
     "tags": [
       "pepe",
       "smug",
@@ -8165,7 +8165,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-smadge-typing.gif",
-    "description": "Pepe crying while typing at keyboard, smadge emote variant with animation",
+    "description": "Pepe crying while typing at keyboard",
     "tags": [
       "pepe",
       "smadge",
@@ -8305,7 +8305,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-bell.gif",
-    "description": "Donki Pepe with yellow triangle hat ringing a bell, removing duplicate k typo",
+    "description": "Donki Pepe ringing a bell",
     "tags": [
       "donki",
       "pepe",
@@ -8319,7 +8319,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-bell-rgb.gif",
-    "description": "Donki Pepe ringing bell with RGB color cycling effect variant",
+    "description": "Donki Pepe ringing bell with RGB color cycling effect",
     "tags": [
       "donki",
       "pepe",
@@ -8363,7 +8363,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-giggles-hands.gif",
-    "description": "Donk Pepe giggling with hands over mouth, removing trailing 2 and adding descriptor",
+    "description": "Donk Pepe giggling with hands over mouth",
     "tags": [
       "donk",
       "pepe",
@@ -8547,7 +8547,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-dunce.gif",
-    "description": "Pepe wearing a dunce/pyramid hat, donk family variant",
+    "description": "Pepe wearing a dunce hat",
     "tags": [
       "donk",
       "dunce",
@@ -8587,7 +8587,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-awaree.gif",
-    "description": "Peepi with aware/knowing expression, doubled-letter suffix variant",
+    "description": "Peepi with aware knowing expression",
     "tags": [
       "peepi",
       "aware",
@@ -8627,7 +8627,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-dramaa.gif",
-    "description": "Peepi with dramatic distressed expression covering face, doubled-letter suffix variant",
+    "description": "Peepi with dramatic distressed expression covering face",
     "tags": [
       "peepi",
       "drama",
@@ -8641,7 +8641,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-finee.gif",
-    "description": "Peepi with this-is-fine expression and single tear, doubled-letter suffix variant",
+    "description": "Peepi with this-is-fine expression and single tear",
     "tags": [
       "peepi",
       "fine",
@@ -8655,7 +8655,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-giggle.gif",
-    "description": "peepi laughing with hand over mouth, giggling expression",
+    "description": "Peepi laughing with hand over mouth, giggling expression",
     "tags": [
       "peepi",
       "giggle",
@@ -8668,7 +8668,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-notedd.gif",
-    "description": "peepi writing notes with pencil and paper",
+    "description": "Peepi writing notes with pencil and paper",
     "tags": [
       "peepi",
       "notes",
@@ -8681,7 +8681,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-patss.gif",
-    "description": "peepi being patted on the head from above",
+    "description": "Peepi being patted on the head from above",
     "tags": [
       "peepi",
       "pat",
@@ -8694,7 +8694,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-pog-spin.gif",
-    "description": "peepi with shocked pog expression spinning around",
+    "description": "Peepi with shocked pog expression spinning around",
     "tags": [
       "peepi",
       "pog",
@@ -8708,7 +8708,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-popcorn.gif",
-    "description": "peepi eating popcorn, watching something with entertainment",
+    "description": "Peepi eating popcorn, watching something with entertainment",
     "tags": [
       "peepi",
       "popcorn",
@@ -8722,7 +8722,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-rave.gif",
-    "description": "peepi in red dancing with arms raised at a rave",
+    "description": "Peepi in red dancing with arms raised at a rave",
     "tags": [
       "peepi",
       "rave",
@@ -8736,7 +8736,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-scrunch.gif",
-    "description": "peepi with skeptical scrunched face expression",
+    "description": "Peepi with skeptical scrunched face expression",
     "tags": [
       "peepi",
       "scrunch",
@@ -8750,7 +8750,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-shrug.gif",
-    "description": "peepi shrugging with arms outstretched",
+    "description": "Peepi shrugging with arms outstretched",
     "tags": [
       "peepi",
       "shrug",
@@ -8763,7 +8763,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-shyjj.gif",
-    "description": "peepi with shy blushing expression and hands together",
+    "description": "Peepi with shy blushing expression and hands together",
     "tags": [
       "peepi",
       "shy",
@@ -8777,7 +8777,7 @@
     "width": 128,
     "height": 128,
     "name": "peepi-talkk.gif",
-    "description": "peepi with mouth open in talking or speaking expression",
+    "description": "Peepi with mouth open in talking or speaking expression",
     "tags": [
       "peepi",
       "talk",
@@ -8930,7 +8930,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-nerd.gif",
-    "description": "peepo wearing nerdy glasses",
+    "description": "Peepo wearing nerdy glasses",
     "tags": [
       "peepo",
       "nerd",
@@ -8942,7 +8942,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-nervous.gif",
-    "description": "peepo with a nervous anxious expression",
+    "description": "Peepo with a nervous anxious expression",
     "tags": [
       "peepo",
       "nervous",
@@ -8954,7 +8954,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-paint.gif",
-    "description": "peepo painting on a canvas with a brush",
+    "description": "Peepo painting on a canvas with a brush",
     "tags": [
       "peepo",
       "paint",
@@ -8967,7 +8967,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-party-balloon.gif",
-    "description": "peepo wearing a party hat and holding a balloon",
+    "description": "Peepo wearing a party hat and holding a balloon",
     "tags": [
       "peepo",
       "party",
@@ -8980,7 +8980,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-peace-out.gif",
-    "description": "peepo giving a peace out goodbye gesture",
+    "description": "Peepo giving a peace out goodbye gesture",
     "tags": [
       "peepo",
       "peace",
@@ -8993,7 +8993,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-peek.gif",
-    "description": "peepo peeking in from the side",
+    "description": "Peepo peeking in from the side",
     "tags": [
       "peepo",
       "peek",
@@ -9019,7 +9019,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pride-flag.gif",
-    "description": "peepo waving a rainbow pride flag",
+    "description": "Peepo waving a rainbow pride flag",
     "tags": [
       "peepo",
       "pride",
@@ -9033,7 +9033,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rgb-keyboard.gif",
-    "description": "peepo typing on a glowing RGB mechanical keyboard",
+    "description": "Peepo typing on a glowing RGB mechanical keyboard",
     "tags": [
       "peepo",
       "rgb",
@@ -9047,7 +9047,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rich.gif",
-    "description": "peepo holding a wad of cash looking wealthy",
+    "description": "Peepo holding a wad of cash looking wealthy",
     "tags": [
       "peepo",
       "rich",
@@ -9170,7 +9170,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-shy-dank.gif",
-    "description": "Peepo wearing a pointed green hood looking shy and cute, dank variant",
+    "description": "Peepo wearing a pointed green hood looking shy and cute",
     "tags": [
       "peepo",
       "shy",
@@ -9200,7 +9200,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-clap.gif",
-    "description": "peepo sitting and clapping",
+    "description": "Peepo sitting and clapping",
     "tags": [
       "peepo",
       "sit",
@@ -9212,7 +9212,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-dink-donk.gif",
-    "description": "peepo sitting and playing a horn instrument making dink donk sounds",
+    "description": "Peepo sitting and playing a horn instrument making dink donk sounds",
     "tags": [
       "peepo",
       "sit",
@@ -9226,7 +9226,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-pizza.gif",
-    "description": "peepo sitting and eating pizza",
+    "description": "Peepo sitting and eating pizza",
     "tags": [
       "peepo",
       "sit",
@@ -9240,7 +9240,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-sleepy.gif",
-    "description": "peepo sitting with droopy tired sleepy eyes",
+    "description": "Peepo sitting with droopy tired sleepy eyes",
     "tags": [
       "peepo",
       "sit",
@@ -9253,7 +9253,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sit-talk.gif",
-    "description": "peepo sitting and talking with mouth moving",
+    "description": "Peepo sitting and talking with mouth moving",
     "tags": [
       "peepo",
       "sit",
@@ -9266,7 +9266,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sleepy.gif",
-    "description": "peepo looking drowsy with heavy eyelids",
+    "description": "Peepo looking drowsy with heavy eyelids",
     "tags": [
       "peepo",
       "sleepy",
@@ -9279,7 +9279,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-smash.gif",
-    "description": "peepo making a smashing fist pump motion",
+    "description": "Peepo making a smashing fist pump motion",
     "tags": [
       "peepo",
       "smash",
@@ -9293,7 +9293,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-talk-hd.gif",
-    "description": "peepo talking with mouth open, high definition version",
+    "description": "Peepo talking with mouth open, high definition version",
     "tags": [
       "peepo",
       "talk",
@@ -9306,7 +9306,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-weird-clap.gif",
-    "description": "peepo doing a weird awkward clap gesture",
+    "description": "Peepo doing a weird awkward clap gesture",
     "tags": [
       "peepo",
       "weird",
@@ -9319,7 +9319,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-winter.gif",
-    "description": "peepo wearing a winter hat in a snowy winter scene",
+    "description": "Peepo wearing a winter hat in a snowy winter scene",
     "tags": [
       "peepo",
       "winter",
@@ -9334,7 +9334,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-burger.gif",
-    "description": "peepo eating a burger, base variant",
+    "description": "Peepo eating a burger",
     "tags": [
       "peepo",
       "burger",
@@ -9347,7 +9347,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-burger-hug.gif",
-    "description": "peepo hugging/clutching a burger, variant of peepo-burger",
+    "description": "Peepo hugging a burger",
     "tags": [
       "peepo",
       "burger",
@@ -9360,7 +9360,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cheers.gif",
-    "description": "peepo wearing party hat with arms raised in celebration",
+    "description": "Peepo wearing party hat with arms raised in celebration",
     "tags": [
       "peepo",
       "cheers",
@@ -9374,7 +9374,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-chimkin.gif",
-    "description": "peepo holding a chicken leg, chimkin is the meme spelling of chicken",
+    "description": "Peepo holding a chicken leg, chimkin is the meme spelling of chicken",
     "tags": [
       "peepo",
       "chimkin",
@@ -9388,7 +9388,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-coffee-cozy.gif",
-    "description": "peepo holding a coffee cup with calm cozy expression, trailing 2 removed with descriptor added",
+    "description": "Peepo holding a coffee cup with calm cozy expression",
     "tags": [
       "peepo",
       "coffee",
@@ -9402,7 +9402,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-comfy-running.gif",
-    "description": "peepo in an orange cozy onesie costume running",
+    "description": "Peepo in an orange cozy onesie costume running",
     "tags": [
       "peepo",
       "comfy",
@@ -9416,7 +9416,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cool-drive.gif",
-    "description": "peepo driving a red car with a cool smug expression",
+    "description": "Peepo driving a red car with a cool smug expression",
     "tags": [
       "peepo",
       "cool",
@@ -9430,7 +9430,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-curtsey.gif",
-    "description": "peepo in a blue skirt doing a curtsey bow",
+    "description": "Peepo in a blue skirt doing a curtsey bow",
     "tags": [
       "peepo",
       "curtsey",
@@ -9444,7 +9444,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-crash.gif",
-    "description": "peepo crashing and flying across the screen",
+    "description": "Peepo crashing and flying across the screen",
     "tags": [
       "peepo",
       "crash",
@@ -9458,7 +9458,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-crying.gif",
-    "description": "peepo with sad teary eyes crying",
+    "description": "Peepo with sad teary eyes crying",
     "tags": [
       "peepo",
       "crying",
@@ -9472,7 +9472,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-cute-pat.gif",
-    "description": "peepo being patted on head by a hand",
+    "description": "Peepo being patted on head by a hand",
     "tags": [
       "peepo",
       "pat",
@@ -9485,7 +9485,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-dance-arms.gif",
-    "description": "peepo dancing with arms waving out to the side",
+    "description": "Peepo dancing with arms waving out to the side",
     "tags": [
       "peepo",
       "dance",
@@ -9498,7 +9498,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-drums.gif",
-    "description": "peepo playing drums with drumsticks",
+    "description": "Peepo playing drums with drumsticks",
     "tags": [
       "peepo",
       "drums",
@@ -9511,7 +9511,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-duck-ride.gif",
-    "description": "peepo riding on top of a running duck",
+    "description": "Peepo riding on top of a running duck",
     "tags": [
       "peepo",
       "duck",
@@ -9524,7 +9524,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-ghost.gif",
-    "description": "peepo dressed as a ghost, white sheet costume floating",
+    "description": "Peepo dressed as a ghost, white sheet costume floating",
     "tags": [
       "peepo",
       "ghost",
@@ -9537,7 +9537,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-giggle.gif",
-    "description": "peepo giggling with hands covering mouth and big smile",
+    "description": "Peepo giggling with hands covering mouth and big smile",
     "tags": [
       "peepo",
       "giggle",
@@ -9550,7 +9550,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-give-gift.gif",
-    "description": "peepo holding out a wrapped gift box with ribbon",
+    "description": "Peepo holding out a wrapped gift box with ribbon",
     "tags": [
       "peepo",
       "gift",
@@ -9563,7 +9563,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-go-to-bed.gif",
-    "description": "peepo going to bed, sleepy bedtime animation",
+    "description": "Peepo going to bed, sleepy bedtime animation",
     "tags": [
       "peepo",
       "sleep",
@@ -9577,7 +9577,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-group-laugh.gif",
-    "description": "multiple peepos laughing together as a group",
+    "description": "Multiple peepos laughing together as a group",
     "tags": [
       "peepo",
       "laugh",
@@ -9590,7 +9590,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-happy-zoom.gif",
-    "description": "peepo zooming in with a big happy excited smile",
+    "description": "Peepo zooming in with a big happy excited smile",
     "tags": [
       "peepo",
       "happy",
@@ -9603,7 +9603,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-hyper-jump.gif",
-    "description": "peepo jumping hyperactively",
+    "description": "Peepo jumping hyperactively",
     "tags": [
       "peepo",
       "jump",
@@ -9616,7 +9616,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-jammin.gif",
-    "description": "peepo wearing headphones and vibing to music",
+    "description": "Peepo wearing headphones and vibing to music",
     "tags": [
       "peepo",
       "music",
@@ -9630,7 +9630,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-juice-spin.gif",
-    "description": "peepo spinning with a juice box",
+    "description": "Peepo spinning with a juice box",
     "tags": [
       "peepo",
       "juice",
@@ -9643,7 +9643,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-kisses-everyone.gif",
-    "description": "peepo sending kisses to everyone with floating hearts",
+    "description": "Peepo sending kisses to everyone with floating hearts",
     "tags": [
       "peepo",
       "kiss",
@@ -9657,7 +9657,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-legs.gif",
-    "description": "peepo legs kicking in the air while lying down",
+    "description": "Peepo legs kicking in the air while lying down",
     "tags": [
       "peepo",
       "legs",
@@ -9671,7 +9671,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-legs-banger.gif",
-    "description": "peepo dancing energetically with legs moving to a banger",
+    "description": "Peepo dancing energetically with legs moving to a banger",
     "tags": [
       "peepo",
       "legs",
@@ -9686,7 +9686,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-nitro-boost.gif",
-    "description": "peepo holding up a Discord Nitro boost gem with excitement",
+    "description": "Peepo holding up a Discord Nitro boost gem with excitement",
     "tags": [
       "peepo",
       "nitro",
@@ -9701,7 +9701,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-pizza.gif",
-    "description": "peepo happily eating a slice of pizza",
+    "description": "Peepo happily eating a slice of pizza",
     "tags": [
       "peepo",
       "pizza",
@@ -9715,7 +9715,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-poo.gif",
-    "description": "peepo approaching a bathroom/toilet sign",
+    "description": "Peepo approaching a bathroom/toilet sign",
     "tags": [
       "peepo",
       "bathroom",
@@ -9729,7 +9729,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-punched.gif",
-    "description": "peepo giving thumbs up after being punched",
+    "description": "Peepo giving thumbs up after being punched",
     "tags": [
       "peepo",
       "punched",
@@ -9741,7 +9741,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rain.gif",
-    "description": "peepo standing in rain with umbrella looking sad",
+    "description": "Peepo standing in rain with umbrella looking sad",
     "tags": [
       "peepo",
       "rain",
@@ -9754,7 +9754,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rocket.gif",
-    "description": "peepo riding or launching a rocket",
+    "description": "Peepo riding or launching a rocket",
     "tags": [
       "peepo",
       "rocket",
@@ -9767,7 +9767,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-rude-finger.gif",
-    "description": "peepo giving the middle finger rude gesture",
+    "description": "Peepo giving the middle finger rude gesture",
     "tags": [
       "peepo",
       "middle-finger",
@@ -9780,7 +9780,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-run.gif",
-    "description": "peepo running animated sprite",
+    "description": "Peepo running animated sprite",
     "tags": [
       "peepo",
       "run",
@@ -9793,7 +9793,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-saiyan.gif",
-    "description": "peepo with super saiyan spiky hair dragon ball z reference",
+    "description": "Peepo with super saiyan spiky hair dragon ball z reference",
     "tags": [
       "peepo",
       "saiyan",
@@ -9807,7 +9807,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sigh.gif",
-    "description": "peepo looking tired and sighing with droopy expression",
+    "description": "Peepo looking tired and sighing with droopy expression",
     "tags": [
       "peepo",
       "sigh",
@@ -9821,7 +9821,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-ily.gif",
-    "description": "peepo holding I love you sign with heart",
+    "description": "Peepo holding I love you sign with heart",
     "tags": [
       "peepo",
       "sign",
@@ -9835,7 +9835,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-simp-angry.gif",
-    "description": "peepo angrily holding a simp sign",
+    "description": "Peepo angrily holding a simp sign",
     "tags": [
       "peepo",
       "sign",
@@ -9848,7 +9848,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-sign-simp-smile.gif",
-    "description": "peepo smiling while holding a simp sign",
+    "description": "Peepo smiling while holding a simp sign",
     "tags": [
       "peepo",
       "sign",
