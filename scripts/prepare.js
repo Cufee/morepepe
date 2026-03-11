@@ -76,7 +76,6 @@ const searchData = emojis.map((e) => ({
   f: e.name,
   e: e.ext,
 }));
-writeFileSync(join(DATA, "search-index.json"), JSON.stringify(searchData));
 writeFileSync(join("public", "search-index.json"), JSON.stringify(searchData));
 
 // Build zip
