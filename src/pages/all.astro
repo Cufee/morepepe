@@ -1,7 +1,7 @@
 ---
-import Base from "@/layouts/Base.astro";
-import SearchBar from "@/components/SearchBar.astro";
 import EmojiCard from "@/components/EmojiCard.astro";
+import SearchBar from "@/components/SearchBar.astro";
+import Base from "@/layouts/Base.astro";
 import { emojis, getImageUrl, siteStats } from "@/lib/emojis";
 
 const sorted = [...emojis].sort((a, b) => a.displayName.localeCompare(b.displayName));

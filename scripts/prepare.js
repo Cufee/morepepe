@@ -1,6 +1,13 @@
-import { readFileSync, writeFileSync, copyFileSync, existsSync, mkdirSync, readdirSync } from "fs";
-import { execSync } from "child_process";
-import { join, basename } from "path";
+import { execSync } from "node:child_process";
+import {
+  copyFileSync,
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
+import { join } from "node:path";
 import Fuse from "fuse.js";
 
 const ASSETS = "assets";
@@ -11,7 +18,9 @@ if (!existsSync(OUT)) mkdirSync(OUT, { recursive: true });
 if (!existsSync(DATA)) mkdirSync(DATA, { recursive: true });
 
 const raw = JSON.parse(readFileSync(join(ASSETS, "manifest.json"), "utf-8"));
-const files = new Set(readdirSync(ASSETS).filter((f) => f !== "manifest.json" && !f.startsWith(".")));
+const files = new Set(
+  readdirSync(ASSETS).filter((f) => f !== "manifest.json" && !f.startsWith(".")),
+);
 
 // Dedupe: keep first occurrence of each filename
 const seen = new Set();
@@ -104,7 +113,11 @@ writeFileSync(join("public", "search-index.json"), JSON.stringify(searchData));
 const zipPath = join(OUT, "morepepe-all.zip");
 const absZip = join(process.cwd(), zipPath);
 const filesToZip = emojis.map((e) => e.name).join("\n");
-execSync(`zip -j '${absZip}' -@`, { input: filesToZip, cwd: ASSETS, stdio: ["pipe", "pipe", "pipe"] });
+execSync(`zip -j '${absZip}' -@`, {
+  input: filesToZip,
+  cwd: ASSETS,
+  stdio: ["pipe", "pipe", "pipe"],
+});
 
 const zipSize = readFileSync(zipPath).length;
 const stats = {
@@ -116,20 +129,25 @@ const stats = {
 };
 writeFileSync(join(DATA, "stats.json"), JSON.stringify(stats));
 
-console.log(`Prepared ${emojis.length} emojis (${stats.png} PNG, ${stats.gif} GIF), zip: ${stats.zipSizeHuman}`);
+console.log(
+  `Prepared ${emojis.length} emojis (${stats.png} PNG, ${stats.gif} GIF), zip: ${stats.zipSizeHuman}`,
+);
 
 function cleanDescription(desc) {
   if (!desc) return "";
   // Remove notes about file processing
   return desc
-    .replace(/\.\s*(Removed|Renamed|Added|Preserved|Changed|Converted|Kebab|Original|File|Source|Note)[^.]*\.?/gi, ".")
+    .replace(
+      /\.\s*(Removed|Renamed|Added|Preserved|Changed|Converted|Kebab|Original|File|Source|Note)[^.]*\.?/gi,
+      ".",
+    )
     .replace(/\.\s*$/, "")
     .replace(/^\s*\.?\s*/, "")
     .trim();
 }
 
 function humanSize(bytes) {
-  if (bytes < 1024) return bytes + " B";
-  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
-  return (bytes / (1024 * 1024)).toFixed(1) + " MB";
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
 }
