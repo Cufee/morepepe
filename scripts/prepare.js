@@ -1,4 +1,4 @@
-import { createWriteStream, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { createWriteStream, existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import archiver from "archiver";
 import Fuse from "fuse.js";
@@ -21,6 +21,7 @@ const emojis = manifest.map((e) => {
   const stem = e.name.replace(/\.[^.]+$/, "");
   const ext = e.name.split(".").pop();
   const slug = stemCount.get(stem) > 1 ? `${stem}-${ext}` : stem;
+  const fileSize = statSync(join(EMOJIS, e.name)).size;
 
   return {
     slug,
@@ -30,8 +31,8 @@ const emojis = manifest.map((e) => {
     tags: e.tags || [],
     width: e.width,
     height: e.height,
-    fileSize: e.fileSize,
-    fileSizeHuman: e.fileSizeHuman,
+    fileSize,
+    fileSizeHuman: humanSize(fileSize),
     fileType: e.fileType,
     ext,
   };
