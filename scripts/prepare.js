@@ -1,46 +1,23 @@
-import {
-  copyFileSync,
-  createWriteStream,
-  existsSync,
-  mkdirSync,
-  readdirSync,
-  readFileSync,
-  writeFileSync,
-} from "node:fs";
+import { createWriteStream, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import archiver from "archiver";
 import Fuse from "fuse.js";
 
-const ASSETS = "assets";
-const OUT = "public/emojis";
+const EMOJIS = "public/emojis";
 const DATA = "src/data";
 
-if (!existsSync(OUT)) mkdirSync(OUT, { recursive: true });
 if (!existsSync(DATA)) mkdirSync(DATA, { recursive: true });
 
-const raw = JSON.parse(readFileSync(join(ASSETS, "manifest.json"), "utf-8"));
-const files = new Set(
-  readdirSync(ASSETS).filter((f) => f !== "manifest.json" && !f.startsWith(".")),
-);
-
-// Dedupe: keep first occurrence of each filename
-const seen = new Set();
-const entries = [];
-for (const entry of raw) {
-  if (seen.has(entry.name)) continue;
-  if (!files.has(entry.name)) continue;
-  seen.add(entry.name);
-  entries.push(entry);
-}
+const manifest = JSON.parse(readFileSync(join(EMOJIS, "manifest.json"), "utf-8"));
 
 // Build slug map — use stem unless conflicting extensions exist
 const stemCount = new Map();
-for (const e of entries) {
+for (const e of manifest) {
   const stem = e.name.replace(/\.[^.]+$/, "");
   stemCount.set(stem, (stemCount.get(stem) || 0) + 1);
 }
 
-const emojis = entries.map((e) => {
+const emojis = manifest.map((e) => {
   const stem = e.name.replace(/\.[^.]+$/, "");
   const ext = e.name.split(".").pop();
   const slug = stemCount.get(stem) > 1 ? `${stem}-${ext}` : stem;
@@ -49,7 +26,7 @@ const emojis = entries.map((e) => {
     slug,
     name: e.name,
     displayName: stem.replace(/-/g, " "),
-    description: cleanDescription(e.description),
+    description: e.description || "",
     tags: e.tags || [],
     width: e.width,
     height: e.height,
@@ -88,15 +65,9 @@ for (const emoji of emojis) {
     .map((r) => r.item.slug);
 }
 
-// Copy images
-for (const e of emojis) {
-  copyFileSync(join(ASSETS, e.name), join(OUT, e.name));
-}
-
-// Write full data
+// Write data files
 writeFileSync(join(DATA, "emojis.json"), JSON.stringify(emojis));
 
-// Build search index (lighter — only fields needed for search + display)
 const searchData = emojis.map((e) => ({
   s: e.slug,
   n: e.displayName,
@@ -106,12 +77,10 @@ const searchData = emojis.map((e) => ({
   e: e.ext,
 }));
 writeFileSync(join(DATA, "search-index.json"), JSON.stringify(searchData));
-
-// Also write search index to public for client-side fetch
 writeFileSync(join("public", "search-index.json"), JSON.stringify(searchData));
 
 // Build zip
-const zipPath = join(OUT, "morepepe-all.zip");
+const zipPath = join(EMOJIS, "morepepe-all.zip");
 await buildZip(zipPath, emojis);
 
 const zipSize = readFileSync(zipPath).length;
@@ -136,23 +105,10 @@ function buildZip(outPath, items) {
     archive.on("error", reject);
     archive.pipe(output);
     for (const e of items) {
-      archive.file(join(ASSETS, e.name), { name: e.name });
+      archive.file(join(EMOJIS, e.name), { name: e.name });
     }
     archive.finalize();
   });
-}
-
-function cleanDescription(desc) {
-  if (!desc) return "";
-  // Remove notes about file processing
-  return desc
-    .replace(
-      /\.\s*(Removed|Renamed|Added|Preserved|Changed|Converted|Kebab|Original|File|Source|Note)[^.]*\.?/gi,
-      ".",
-    )
-    .replace(/\.\s*$/, "")
-    .replace(/^\s*\.?\s*/, "")
-    .trim();
 }
 
 function humanSize(bytes) {

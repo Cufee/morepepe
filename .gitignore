@@ -5,6 +5,6 @@ dist/
 .playwright-mcp/
 
 # Generated at build time
-public/emojis/
+public/emojis/morepepe-all.zip
 public/search-index.json
 src/data/

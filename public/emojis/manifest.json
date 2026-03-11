@@ -5,7 +5,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-ez.png",
-    "description": "Pepe wearing sunglasses with smug EZ expression. Removed numeric prefix, preserved meme word ez.",
+    "description": "Pepe wearing sunglasses with smug EZ expression",
     "tags": [
       "pepe",
       "ez",
@@ -20,7 +20,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-bad-man.png",
-    "description": "Classic sad Pepe. Removed numeric prefix, kebab-case.",
+    "description": "Classic sad Pepe",
     "tags": [
       "pepe",
       "feels",
@@ -34,7 +34,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-okay-man.png",
-    "description": "Pepe with slight smile, okay expression. Removed numeric prefix.",
+    "description": "Pepe with slight smile, okay expression",
     "tags": [
       "pepe",
       "feels",
@@ -48,7 +48,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-special-man.png",
-    "description": "Pepe looking dazed/drooling. Removed numeric prefix.",
+    "description": "Pepe looking dazed/drooling",
     "tags": [
       "pepe",
       "feels",
@@ -62,7 +62,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-strong-man.png",
-    "description": "Pepe crying heavily with strength. Removed numeric prefix.",
+    "description": "Pepe crying heavily with strength",
     "tags": [
       "pepe",
       "feels",
@@ -77,7 +77,7 @@
     "width": 128,
     "height": 128,
     "name": "hypers.png",
-    "description": "Excited peepo with arms raised. Removed numeric prefix, preserved meme word.",
+    "description": "Excited peepo with arms raised",
     "tags": [
       "peepo",
       "hypers",
@@ -91,7 +91,7 @@
     "width": 128,
     "height": 128,
     "name": "nop.png",
-    "description": "Disappointed frowning Pepe. Removed numeric prefix.",
+    "description": "Disappointed frowning Pepe",
     "tags": [
       "pepe",
       "nop",
@@ -105,7 +105,7 @@
     "width": 128,
     "height": 128,
     "name": "okayge.png",
-    "description": "Pepe with hopeful okay expression. Removed numeric prefix, preserved meme suffix -ge.",
+    "description": "Pepe with hopeful okay expression",
     "tags": [
       "pepe",
       "okayge",
@@ -119,7 +119,7 @@
     "width": 128,
     "height": 128,
     "name": "poggers.png",
-    "description": "Pepe mouth wide open, classic poggers excitement. Removed numeric prefix.",
+    "description": "Pepe mouth wide open, classic poggers excitement",
     "tags": [
       "pepe",
       "poggers",
@@ -133,7 +133,7 @@
     "width": 128,
     "height": 128,
     "name": "poggies.png",
-    "description": "Peepo (hooded) mouth wide open excited. Removed numeric prefix.",
+    "description": "Peepo (hooded) mouth wide open excited",
     "tags": [
       "peepo",
       "poggies",
@@ -147,7 +147,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-glad.png",
-    "description": "Content/glad peepo with gentle smile. Removed numeric prefix.",
+    "description": "Content/glad peepo with gentle smile",
     "tags": [
       "peepo",
       "glad",
@@ -161,7 +161,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-hands.png",
-    "description": "Pepe crying with hands up pleading. Removed numeric prefix.",
+    "description": "Pepe crying with hands up pleading",
     "tags": [
       "pepe",
       "hands",
@@ -176,7 +176,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-laughs.png",
-    "description": "Pepe grinning/laughing showing teeth. Removed numeric prefix.",
+    "description": "Pepe grinning/laughing showing teeth",
     "tags": [
       "pepe",
       "laugh"
@@ -189,7 +189,7 @@
     "width": 128,
     "height": 128,
     "name": "prayge.png",
-    "description": "Pepe praying with yellow light beam. Removed numeric prefix, preserved meme word.",
+    "description": "Pepe praying with yellow light beam",
     "tags": [
       "pepe",
       "prayge",
@@ -203,7 +203,7 @@
     "width": 128,
     "height": 128,
     "name": "sadge.png",
-    "description": "Sad pepe with downcast eyes. Removed numeric prefix, preserved meme word.",
+    "description": "Sad pepe with downcast eyes",
     "tags": [
       "pepe",
       "sadge",
@@ -217,7 +217,7 @@
     "width": 128,
     "height": 128,
     "name": "susge.png",
-    "description": "Pepe with suspicious squinting expression. Removed numeric prefix, preserved meme word.",
+    "description": "Pepe with suspicious squinting expression",
     "tags": [
       "pepe",
       "susge",
@@ -231,7 +231,7 @@
     "width": 128,
     "height": 128,
     "name": "wicked.png",
-    "description": "Pepe wearing rainbow sport sunglasses, cool look. Removed numeric prefix.",
+    "description": "Pepe wearing rainbow sport sunglasses, cool look",
     "tags": [
       "pepe",
       "wicked",
@@ -246,7 +246,7 @@
     "width": 128,
     "height": 128,
     "name": "weirdge.png",
-    "description": "Pepe with confused/weird expression. Removed numeric prefix, preserved meme suffix -ge.",
+    "description": "Pepe with confused/weird expression",
     "tags": [
       "pepe",
       "weirdge",
@@ -260,7 +260,7 @@
     "width": 128,
     "height": 128,
     "name": "yep.png",
-    "description": "Pepe with content approving smile. Removed numeric prefix.",
+    "description": "Pepe with content approving smile",
     "tags": [
       "pepe",
       "yep",
@@ -274,7 +274,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-giga.png",
-    "description": "MonkaS with huge wide eyes, extreme anxiety. Removed numeric prefix, split family prefix.",
+    "description": "MonkaS with huge wide eyes, extreme anxiety",
     "tags": [
       "monka",
       "giga",
@@ -288,7 +288,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-gun.png",
-    "description": "MonkaS holding a gun, threatening. Removed numeric prefix.",
+    "description": "MonkaS holding a gun, threatening",
     "tags": [
       "monka",
       "gun",
@@ -302,7 +302,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-h.png",
-    "description": "Sweating anxious monka with hand raised. Removed numeric prefix.",
+    "description": "Sweating anxious monka with hand raised",
     "tags": [
       "monka",
       "anxious",
@@ -316,7 +316,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-blush.png",
-    "description": "Peepo blushing with pink cheeks. Removed numeric prefix.",
+    "description": "Peepo blushing with pink cheeks",
     "tags": [
       "peepo",
       "blush",
@@ -330,7 +330,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-exit.png",
-    "description": "Peepo sneaking toward EXIT sign, leaving. Removed numeric prefix.",
+    "description": "Peepo sneaking toward EXIT sign, leaving",
     "tags": [
       "peepo",
       "exit",
@@ -344,7 +344,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-kiss.png",
-    "description": "Peepo blowing kiss with hearts above. Removed numeric prefix.",
+    "description": "Peepo blowing kiss with hearts above",
     "tags": [
       "peepo",
       "kiss",
@@ -359,7 +359,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-nuggies.png",
-    "description": "Peepo holding chicken nuggets. Removed numeric prefix, preserved meme word nuggies.",
+    "description": "Peepo holding chicken nuggets",
     "tags": [
       "peepo",
       "nuggies",
@@ -373,7 +373,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-sus.png",
-    "description": "Pepe with suspicious uncomfortable expression. Removed numeric prefix.",
+    "description": "Pepe with suspicious uncomfortable expression",
     "tags": [
       "pepe",
       "sus",
@@ -387,7 +387,7 @@
     "width": 128,
     "height": 128,
     "name": "feels-amazing-man.png",
-    "description": "Pepe mouth wide open amazed. Removed numeric prefix.",
+    "description": "Pepe mouth wide open amazed",
     "tags": [
       "pepe",
       "feels",
@@ -401,7 +401,7 @@
     "width": 128,
     "height": 128,
     "name": "pepo-think.png",
-    "description": "Pepo thinking with hand on chin. Removed numeric prefix, preserved pepo variant spelling.",
+    "description": "Pepo thinking with hand on chin",
     "tags": [
       "pepo",
       "think"
@@ -414,7 +414,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-laugh.png",
-    "description": "MonkaS grinning/laughing nervously showing teeth. Removed numeric prefix.",
+    "description": "MonkaS grinning/laughing nervously showing teeth",
     "tags": [
       "monka",
       "laugh",
@@ -428,7 +428,7 @@
     "width": 128,
     "height": 128,
     "name": "monka-stop.png",
-    "description": "MonkaS with hand on face, facepalm/stop gesture. Removed numeric prefix.",
+    "description": "MonkaS with hand on face, facepalm/stop gesture",
     "tags": [
       "monka",
       "stop",
@@ -442,7 +442,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-poo.png",
-    "description": "Peepo sitting on toilet. Removed numeric prefix.",
+    "description": "Peepo sitting on toilet",
     "tags": [
       "peepo",
       "poo",
@@ -456,7 +456,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-predi-believers.png",
-    "description": "Peepo with blue Twitch prediction badge, believers side. Removed numeric prefix.",
+    "description": "Peepo with blue Twitch prediction badge, believers side",
     "tags": [
       "peepo",
       "prediction",
@@ -470,7 +470,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-predi-doubters.png",
-    "description": "Peepo with pink Twitch prediction badge, doubters side. Removed numeric prefix.",
+    "description": "Peepo with pink Twitch prediction badge, doubters side",
     "tags": [
       "peepo",
       "prediction",
@@ -484,7 +484,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-ugh.png",
-    "description": "Peepo frustrated with hands on face. Removed numeric prefix, collapsed repeated letters.",
+    "description": "Peepo frustrated with hands on face",
     "tags": [
       "peepo",
       "ugh",
@@ -498,7 +498,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-gun.png",
-    "description": "Pepe hand holding gun, first-person view. Removed numeric prefix.",
+    "description": "Pepe hand holding gun, first-person view",
     "tags": [
       "pepe",
       "gun"
@@ -511,7 +511,7 @@
     "width": 128,
     "height": 128,
     "name": "pepe-jam.png",
-    "description": "Pepe wearing headphones jamming to music. Removed numeric prefix.",
+    "description": "Pepe wearing headphones jamming to music",
     "tags": [
       "pepe",
       "jam",
@@ -526,7 +526,7 @@
     "width": 128,
     "height": 128,
     "name": "pepega.png",
-    "description": "Classic Pepega derpy face. Removed numeric prefix, preserved meme word.",
+    "description": "Classic Pepega derpy face",
     "tags": [
       "pepega",
       "derp"
@@ -539,7 +539,7 @@
     "width": 128,
     "height": 128,
     "name": "alo.png",
-    "description": "Pepe on phone, alo meme. Lowercased.",
+    "description": "Pepe on phone, alo meme. Lowercased",
     "tags": [
       "pepe",
       "alo",
@@ -553,7 +553,7 @@
     "width": 128,
     "height": 128,
     "name": "alo-bow.png",
-    "description": "Pepe with pink bow on phone, feminine alo variant. Collapsed double o, added bow descriptor.",
+    "description": "Pepe with pink bow on phone, feminine alo variant. Collapsed double o, added bow descriptor",
     "tags": [
       "pepe",
       "alo",
@@ -569,7 +569,7 @@
     "width": 128,
     "height": 128,
     "name": "a-little-weird.png",
-    "description": "Small sad Pepe in corner looking weird. Kebab-cased.",
+    "description": "Small sad Pepe in corner looking weird",
     "tags": [
       "pepe",
       "weird",
@@ -584,7 +584,7 @@
     "width": 128,
     "height": 128,
     "name": "all-good.png",
-    "description": "Peepo giving thumbs up. Kebab-cased.",
+    "description": "Peepo giving thumbs up",
     "tags": [
       "peepo",
       "thumbs-up",
@@ -598,7 +598,7 @@
     "width": 128,
     "height": 128,
     "name": "apu.png",
-    "description": "Classic Apu Apustaja with simple sad face. Lowercased.",
+    "description": "Classic Apu Apustaja with simple sad face. Lowercased",
     "tags": [
       "apu",
       "classic"
@@ -611,7 +611,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-business.png",
-    "description": "Apu in business suit with briefcase. Kebab-cased.",
+    "description": "Apu in business suit with briefcase",
     "tags": [
       "apu",
       "business",
@@ -625,7 +625,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-flower.png",
-    "description": "Apu holding a flower. Kebab-cased.",
+    "description": "Apu holding a flower",
     "tags": [
       "apu",
       "flower",
@@ -639,7 +639,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-hypers.png",
-    "description": "Apu excited with arms raised wearing diaper. Preserved meme word hypers.",
+    "description": "Apu excited with arms raised wearing diaper",
     "tags": [
       "apu",
       "hypers",
@@ -653,7 +653,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-laugh.png",
-    "description": "Apu grinning/laughing. Kebab-cased.",
+    "description": "Apu grinning/laughing",
     "tags": [
       "apu",
       "laugh"
@@ -666,7 +666,7 @@
     "width": 128,
     "height": 128,
     "name": "apu-yoga.png",
-    "description": "Apu in meditation/yoga pose. Kebab-cased.",
+    "description": "Apu in meditation/yoga pose",
     "tags": [
       "apu",
       "yoga",
@@ -680,7 +680,7 @@
     "width": 128,
     "height": 128,
     "name": "based.png",
-    "description": "Pepe in tuxedo looking smug. Preserved meme word based.",
+    "description": "Pepe in tuxedo looking smug",
     "tags": [
       "pepe",
       "based",
@@ -695,7 +695,7 @@
     "width": 128,
     "height": 128,
     "name": "based-cry.png",
-    "description": "Pepe crying while drinking. Removed numeric suffix, added cry descriptor from visual content.",
+    "description": "Pepe crying while drinking",
     "tags": [
       "pepe",
       "based",
@@ -710,7 +710,7 @@
     "width": 128,
     "height": 128,
     "name": "bedge.png",
-    "description": "Pepe tucked in bed peeking out. Preserved meme word bedge.",
+    "description": "Pepe tucked in bed peeking out",
     "tags": [
       "pepe",
       "bedge",
@@ -725,7 +725,7 @@
     "width": 128,
     "height": 128,
     "name": "bedge-sleepy.png",
-    "description": "Pepe in bed with sleeping cap. Removed numeric suffix, added sleepy descriptor.",
+    "description": "Pepe in bed with sleeping cap",
     "tags": [
       "pepe",
       "bedge",
@@ -740,7 +740,7 @@
     "width": 128,
     "height": 128,
     "name": "bedge-phone.png",
-    "description": "Pepe in bed with sleeping cap checking phone. Removed numeric suffix.",
+    "description": "Pepe in bed with sleeping cap checking phone",
     "tags": [
       "pepe",
       "bedge",
@@ -754,7 +754,7 @@
     "width": 128,
     "height": 128,
     "name": "bedge-donk.png",
-    "description": "Donk character sleeping in bed with yellow hat.",
+    "description": "Donk character sleeping in bed with yellow hat",
     "tags": [
       "donk",
       "bedge",
@@ -768,7 +768,7 @@
     "width": 128,
     "height": 128,
     "name": "peepo-blush-hug.png",
-    "description": "Peepo blushing with arms out wanting hug. Added peepo prefix.",
+    "description": "Peepo blushing with arms out wanting hug",
     "tags": [
       "peepo",
       "blush",
@@ -783,7 +783,7 @@
     "width": 128,
     "height": 128,
     "name": "bruh.png",
-    "description": "Pepe with flat unamused bruh expression. Lowercased.",
+    "description": "Pepe with flat unamused bruh expression. Lowercased",
     "tags": [
       "pepe",
       "bruh",
@@ -797,7 +797,7 @@
     "width": 128,
     "height": 128,
     "name": "copium.png",
-    "description": "Pepe inhaling copium from tank. Removed PNG extension leak from name, preserved meme word.",
+    "description": "Pepe inhaling copium from tank",
     "tags": [
       "pepe",
       "copium"
@@ -810,7 +810,7 @@
     "width": 128,
     "height": 128,
     "name": "catge.png",
-    "description": "Pepe as a green cat with pink ears. Preserved meme word catge.",
+    "description": "Pepe as a green cat with pink ears",
     "tags": [
       "pepe",
       "catge",
@@ -824,7 +824,7 @@
     "width": 128,
     "height": 128,
     "name": "chadge.png",
-    "description": "Pepe with chad jawline looking smug. Preserved meme word chadge.",
+    "description": "Pepe with chad jawline looking smug",
     "tags": [
       "pepe",
       "chadge",
@@ -839,7 +839,7 @@
     "width": 128,
     "height": 128,
     "name": "chadge-ignore.png",
-    "description": "Chadge Pepe turned away, ignoring. Kebab-cased.",
+    "description": "Chadge Pepe turned away, ignoring",
     "tags": [
       "pepe",
       "chadge",
@@ -853,7 +853,7 @@
     "width": 128,
     "height": 128,
     "name": "comfi.png",
-    "description": "Peepo wrapped in red scarf/blanket with big eyes. Preserved meme spelling comfi.",
+    "description": "Peepo wrapped in red scarf/blanket with big eyes",
     "tags": [
       "peepo",
       "comfi",
@@ -868,7 +868,7 @@
     "width": 128,
     "height": 128,
     "name": "corpa.png",
-    "description": "Pepe in corporate suit with briefcase and long nose. Preserved meme word corpa.",
+    "description": "Pepe in corporate suit with briefcase and long nose",
     "tags": [
       "pepe",
       "corpa",
@@ -883,7 +883,7 @@
     "width": 128,
     "height": 128,
     "name": "cowboygers.png",
-    "description": "Peepo as cowboy with hat riding cow. Preserved meme word cowboygers.",
+    "description": "Peepo as cowboy with hat riding cow",
     "tags": [
       "peepo",
       "cowboy",
@@ -897,7 +897,7 @@
     "width": 128,
     "height": 128,
     "name": "dankium.png",
-    "description": "Pepe inhaling from dankium tap. Lowercased, preserved meme word.",
+    "description": "Pepe inhaling from dankium tap. Lowercased, preserved meme word",
     "tags": [
       "pepe",
       "dankium",
@@ -911,7 +911,7 @@
     "width": 128,
     "height": 128,
     "name": "did-someone-say-cock.png",
-    "description": "Pepe peeking with wide excited eyes. Kebab-cased from allcaps.",
+    "description": "Pepe peeking with wide excited eyes",
     "tags": [
       "pepe",
       "excited",
@@ -925,7 +925,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-approve.png",
-    "description": "Dank Pepe with pointy hat giving thumbs up. Kebab-cased.",
+    "description": "Dank Pepe with pointy hat giving thumbs up",
     "tags": [
       "dank",
       "approve",
@@ -939,7 +939,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-homi.png",
-    "description": "Two dank Pepes together with heart, homies. Preserved meme spelling homi.",
+    "description": "Two dank Pepes together with heart, homies",
     "tags": [
       "dank",
       "homi",
@@ -954,7 +954,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-gi.png",
-    "description": "Dank Pepe with pointy hat and big curious eyes. Preserved gi suffix.",
+    "description": "Dank Pepe with pointy hat and big curious eyes",
     "tags": [
       "dank",
       "gi",
@@ -968,7 +968,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-i.png",
-    "description": "Small dank Pepe with pointy hat smiling. Preserved i suffix.",
+    "description": "Small dank Pepe with pointy hat smiling",
     "tags": [
       "dank",
       "i",
@@ -982,7 +982,7 @@
     "width": 128,
     "height": 128,
     "name": "dank-confused.png",
-    "description": "Dank Pepe with question mark, confused. Collapsed extra k, added descriptor from visual.",
+    "description": "Dank Pepe with question mark, confused. Collapsed extra k, added descriptor from visual",
     "tags": [
       "dank",
       "confused",
@@ -996,7 +996,7 @@
     "width": 128,
     "height": 128,
     "name": "deadge.png",
-    "description": "Pepe slumped over dead/exhausted. Removed numeric suffix, preserved meme word deadge.",
+    "description": "Pepe slumped over dead/exhausted",
     "tags": [
       "pepe",
       "deadge",
@@ -1011,7 +1011,7 @@
     "width": 128,
     "height": 128,
     "name": "despairge.png",
-    "description": "Grayscale Pepe with wide eyes in despair. Preserved meme word despairge.",
+    "description": "Grayscale Pepe with wide eyes in despair",
     "tags": [
       "pepe",
       "despairge",
@@ -1026,7 +1026,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-angry.png",
-    "description": "Donk with angry red veins popping. Removed numeric suffix.",
+    "description": "Donk with angry red veins popping",
     "tags": [
       "donk",
       "angry",
@@ -1040,7 +1040,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-angy.png",
-    "description": "Donk with angry squinting expression. Preserved meme spelling angy.",
+    "description": "Donk with angry squinting expression",
     "tags": [
       "donk",
       "angy",
@@ -1054,7 +1054,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-based.png",
-    "description": "Donk wearing dark sunglasses, based. Lowercased.",
+    "description": "Donk wearing dark sunglasses, based. Lowercased",
     "tags": [
       "donk",
       "based",
@@ -1068,7 +1068,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-feels-man.png",
-    "description": "Donk with sad/feels expression. Kebab-cased.",
+    "description": "Donk with sad/feels expression",
     "tags": [
       "donk",
       "feels",
@@ -1082,7 +1082,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-g.png",
-    "description": "Donk reading/writing on paper with red pen.",
+    "description": "Donk reading/writing on paper with red pen",
     "tags": [
       "donk",
       "reading",
@@ -1096,7 +1096,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-german.png",
-    "description": "Donk wearing German hat with beer, Oktoberfest style.",
+    "description": "Donk wearing German hat with beer, Oktoberfest style",
     "tags": [
       "donk",
       "german",
@@ -1111,7 +1111,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-happy.png",
-    "description": "Donk with happy big eyes.",
+    "description": "Donk with happy big eyes",
     "tags": [
       "donk",
       "happy"
@@ -1124,7 +1124,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-high.png",
-    "description": "Donk wearing pink tinted glasses, high/chill look.",
+    "description": "Donk wearing pink tinted glasses, high/chill look",
     "tags": [
       "donk",
       "high",
@@ -1139,7 +1139,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-hug.png",
-    "description": "Two Donks hugging each other.",
+    "description": "Two Donks hugging each other",
     "tags": [
       "donk",
       "hug",
@@ -1153,7 +1153,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-looking-at-you.png",
-    "description": "Donk staring forward with wide eyes. Kebab-cased.",
+    "description": "Donk staring forward with wide eyes",
     "tags": [
       "donk",
       "staring",
@@ -1167,7 +1167,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-naked.png",
-    "description": "Donk without hat, plain green blob form.",
+    "description": "Donk without hat, plain green blob form",
     "tags": [
       "donk",
       "naked",
@@ -1181,7 +1181,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-okay.png",
-    "description": "Donk with small smile, okay expression.",
+    "description": "Donk with small smile, okay expression",
     "tags": [
       "donk",
       "okay",
@@ -1195,7 +1195,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-okay-happy.png",
-    "description": "Donk with bigger smile, happier okay variant. Removed numeric suffix, added descriptor.",
+    "description": "Donk with bigger smile, happier okay variant",
     "tags": [
       "donk",
       "okay",
@@ -1209,7 +1209,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-reading.png",
-    "description": "Donk reading a book.",
+    "description": "Donk reading a book",
     "tags": [
       "donk",
       "reading",
@@ -1223,7 +1223,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-s.png",
-    "description": "Donk sweating nervously, monkaS style.",
+    "description": "Donk sweating nervously, monkaS style",
     "tags": [
       "donk",
       "nervous",
@@ -1238,7 +1238,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sad.png",
-    "description": "Donk with sad eyes.",
+    "description": "Donk with sad eyes",
     "tags": [
       "donk",
       "sad"
@@ -1251,7 +1251,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sad-cry.png",
-    "description": "Donk close-up very sad with tears. Removed numeric suffix, added cry descriptor.",
+    "description": "Donk close-up very sad with tears",
     "tags": [
       "donk",
       "sad",
@@ -1266,7 +1266,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sass.png",
-    "description": "Donk with sassy makeup, lipstick and nails.",
+    "description": "Donk with sassy makeup, lipstick and nails",
     "tags": [
       "donk",
       "sass",
@@ -1281,7 +1281,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sass-sad.png",
-    "description": "Donk sassy with makeup but sad/crying.",
+    "description": "Donk sassy with makeup but sad/crying",
     "tags": [
       "donk",
       "sass",
@@ -1296,7 +1296,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-sleepy.png",
-    "description": "Donk sleeping with blue night cap, eyes closed.",
+    "description": "Donk sleeping with blue night cap, eyes closed",
     "tags": [
       "donk",
       "sleepy",
@@ -1310,7 +1310,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-speed.png",
-    "description": "Donk blurred with motion lines, moving very fast.",
+    "description": "Donk blurred with motion lines, moving very fast",
     "tags": [
       "donk",
       "speed",
@@ -1325,7 +1325,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-wow.png",
-    "description": "Donk with wide eyes and open mouth, looking amazed and wowed.",
+    "description": "Donk with wide eyes and open mouth, looking amazed and wowed",
     "tags": [
       "donk",
       "wow",
@@ -1340,7 +1340,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-weird.png",
-    "description": "Donk with a strange unsettled expression, looking odd and uncomfortable.",
+    "description": "Donk with a strange unsettled expression, looking odd and uncomfortable",
     "tags": [
       "donk",
       "weird",
@@ -1355,7 +1355,7 @@
     "width": 128,
     "height": 128,
     "name": "donk-broken-heart.png",
-    "description": "Donk holding a broken red heart with a sad expression.",
+    "description": "Donk holding a broken red heart with a sad expression",
     "tags": [
       "donk",
       "broken",
@@ -1371,7 +1371,7 @@
     "width": 128,
     "height": 128,
     "name": "donki.png",
-    "description": "Small mini Donk with pointy yellow hat, the base Donki emote.",
+    "description": "Small mini Donk with pointy yellow hat, the base Donki emote",
     "tags": [
       "donki",
       "donk",
@@ -1386,7 +1386,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-approved.png",
-    "description": "Small Donki with yellow hat giving a thumbs up, approval.",
+    "description": "Small Donki with yellow hat giving a thumbs up, approval",
     "tags": [
       "donki",
       "approved",
@@ -1400,7 +1400,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-cool.png",
-    "description": "Small Donki with yellow hat wearing dark sunglasses, cool.",
+    "description": "Small Donki with yellow hat wearing dark sunglasses, cool",
     "tags": [
       "donki",
       "cool",
@@ -1414,7 +1414,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-flushed.png",
-    "description": "Small Donki with yellow hat, hands on cheeks, flushed/embarrassed expression.",
+    "description": "Small Donki with yellow hat, hands on cheeks, flushed/embarrassed expression",
     "tags": [
       "donki",
       "flushed",
@@ -1428,7 +1428,7 @@
     "width": 128,
     "height": 128,
     "name": "donki-hypers.png",
-    "description": "Small Donki with yellow hat, arms raised in excitement, hypers pose.",
+    "description": "Small Donki with yellow hat, arms raised in excitement, hypers pose",
     "tags": [
       "donki",
       "hypers",
@@ -3864,21 +3864,6 @@
     "fileType": "image/png"
   },
   {
-    "fileSize": 22116,
-    "fileSizeHuman": "21.6 KB",
-    "width": 128,
-    "height": 128,
-    "name": "donk-angry.png",
-    "description": "Donk character with anger veins on head and angry frown",
-    "tags": [
-      "donk",
-      "angry",
-      "rage",
-      "veins"
-    ],
-    "fileType": "image/png"
-  },
-  {
     "fileSize": 22268,
     "fileSizeHuman": "21.7 KB",
     "width": 128,
@@ -6250,23 +6235,6 @@
     "fileType": "image/png"
   },
   {
-    "fileSize": 16010,
-    "fileSizeHuman": "15.6 KB",
-    "width": 128,
-    "height": 128,
-    "name": "peepo-knife.png",
-    "description": "peepo holding a knife with angry menacing expression",
-    "tags": [
-      "peepo",
-      "knife",
-      "killing",
-      "angry",
-      "menacing",
-      "threat"
-    ],
-    "fileType": "image/png"
-  },
-  {
     "fileSize": 38935,
     "fileSizeHuman": "38.0 KB",
     "width": 128,
@@ -8280,21 +8248,6 @@
       "cheeks",
       "butt",
       "behind"
-    ],
-    "fileType": "image/gif"
-  },
-  {
-    "fileSize": 122609,
-    "fileSizeHuman": "119.7 KB",
-    "width": 128,
-    "height": 128,
-    "name": "peepo-gaming.gif",
-    "description": "Peepo wearing gaming headset and holding controller",
-    "tags": [
-      "peepo",
-      "gaming",
-      "controller",
-      "headset"
     ],
     "fileType": "image/gif"
   },
@@ -11127,22 +11080,6 @@
       "juice",
       "spin",
       "drink"
-    ],
-    "fileType": "image/gif"
-  },
-  {
-    "fileSize": 29748,
-    "fileSizeHuman": "29.1 KB",
-    "width": 128,
-    "height": 128,
-    "name": "peepo-kisses.gif",
-    "description": "peepo blowing kisses with heart eyes",
-    "tags": [
-      "peepo",
-      "kiss",
-      "love",
-      "hearts",
-      "affection"
     ],
     "fileType": "image/gif"
   },
