@@ -1,0 +1,40 @@
+---
+interface Props {
+  slug: string;
+  name: string;
+  displayName: string;
+  imageUrl: string;
+  ext: string;
+}
+
+const { slug, name, displayName, imageUrl, ext } = Astro.props;
+---
+
+<div class="group relative rounded-xl border border-(--border) bg-(--bg-card) p-4 transition-colors hover:border-(--accent)">
+  <a href={`/${slug}`} class="block text-center">
+    <img
+      src={imageUrl}
+      alt={displayName}
+      width="128"
+      height="128"
+      loading="lazy"
+      class="mx-auto h-24 w-24 object-contain"
+    />
+    <p class="mt-2 truncate text-sm font-medium">{displayName}</p>
+  </a>
+  <div class="absolute top-2 right-2 flex gap-1 opacity-0 transition-opacity group-hover:opacity-100">
+    <a
+      href={imageUrl}
+      download={name}
+      class="rounded-md bg-(--bg) p-1.5 text-(--text-muted) hover:text-(--accent)"
+      title="Download"
+    >
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+    </a>
+  </div>
+  <span class="absolute bottom-2 right-2 rounded bg-(--bg) px-1.5 py-0.5 text-xs text-(--text-muted) uppercase">
+    {ext}
+  </span>
+</div>

@@ -1,0 +1,107 @@
+---
+---
+
+<div id="search-wrap" class="relative mx-auto w-full max-w-xl">
+  <input
+    id="search-input"
+    type="search"
+    placeholder="Search emojis..."
+    autocomplete="off"
+    class="w-full rounded-xl border border-(--border) bg-(--bg-card) px-4 py-3 pl-10 text-base outline-none transition-colors focus:border-(--accent)"
+  />
+  <svg class="absolute top-3.5 left-3 h-5 w-5 text-(--text-muted)" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+  </svg>
+  <div
+    id="search-results"
+    class="absolute z-50 mt-2 hidden w-full overflow-hidden rounded-xl border border-(--border) bg-(--bg-card) shadow-xl"
+  >
+  </div>
+</div>
+
+<script>
+  let Fuse: any;
+  let fuse: any;
+  let index: any[];
+
+  const input = document.getElementById("search-input") as HTMLInputElement;
+  const results = document.getElementById("search-results") as HTMLDivElement;
+
+  async function init() {
+    if (fuse) return;
+    const [fuseModule, data] = await Promise.all([
+      import("fuse.js"),
+      fetch("/search-index.json").then((r) => r.json()),
+    ]);
+    Fuse = fuseModule.default;
+    index = data;
+    fuse = new Fuse(index, {
+      keys: [
+        { name: "n", weight: 3 },
+        { name: "t", weight: 2 },
+        { name: "d", weight: 1 },
+      ],
+      threshold: 0.4,
+      includeScore: true,
+    });
+  }
+
+  function render(items: any[]) {
+    if (!items.length) {
+      results.classList.add("hidden");
+      return;
+    }
+    results.classList.remove("hidden");
+    results.innerHTML = items
+      .slice(0, 20)
+      .map(
+        (item: any) => `
+      <div class="flex items-center gap-3 border-b border-(--border) last:border-0">
+        <a href="/${item.s}" class="flex flex-1 items-center gap-3 px-4 py-2 hover:bg-(--bg)">
+          <img src="/emojis/${item.f}" alt="${item.n}" width="32" height="32" class="h-8 w-8 object-contain" />
+          <span class="flex-1 text-sm font-medium">${item.n}</span>
+          <span class="text-xs uppercase text-(--text-muted)">${item.e}</span>
+        </a>
+        <a href="/emojis/${item.f}" download="${item.f}" class="px-3 py-2 text-(--text-muted) hover:text-(--accent)" title="Download">
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg>
+        </a>
+      </div>
+    `
+      )
+      .join("");
+  }
+
+  input.addEventListener("focus", init);
+
+  let debounce: ReturnType<typeof setTimeout>;
+  input.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(async () => {
+      await init();
+      const q = input.value.trim();
+      if (!q) {
+        results.classList.add("hidden");
+        return;
+      }
+      const hits = fuse.search(q).map((r: any) => r.item);
+      render(hits);
+    }, 100);
+  });
+
+  // Close on outside click
+  document.addEventListener("click", (e) => {
+    if (!(e.target as Element).closest("#search-wrap")) {
+      results.classList.add("hidden");
+    }
+  });
+
+  // Close on Escape
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      results.classList.add("hidden");
+      input.blur();
+    }
+  });
+</script>

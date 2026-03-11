@@ -1,0 +1,56 @@
+---
+import Base from "@/layouts/Base.astro";
+import SearchBar from "@/components/SearchBar.astro";
+import EmojiCard from "@/components/EmojiCard.astro";
+import { randomEmojis, getImageUrl, siteStats } from "@/lib/emojis";
+
+const featured = randomEmojis(24);
+---
+
+<Base
+  title="morepepe — Pepe emojis for Slack & Discord"
+  description={`Browse and download ${siteStats.total} Pepe & friends emojis for Slack and Discord. Free to use.`}
+>
+  <section class="mb-12 text-center">
+    <h1 class="mb-2 text-4xl font-bold">morepepe</h1>
+    <p class="mb-6 text-(--text-muted)">
+      {siteStats.total} Pepe & friends emojis for Slack and Discord
+    </p>
+    <SearchBar />
+  </section>
+
+  <section class="mb-8 flex items-center justify-between">
+    <h2 class="text-xl font-semibold">Featured</h2>
+    <a
+      href="/emojis/morepepe-all.zip"
+      download
+      class="inline-flex items-center gap-2 rounded-lg bg-(--accent) px-4 py-2 text-sm font-medium text-black transition-opacity hover:opacity-80"
+    >
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+      </svg>
+      Download all {siteStats.total} ({siteStats.zipSizeHuman})
+    </a>
+  </section>
+
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+    {featured.map((emoji) => (
+      <EmojiCard
+        slug={emoji.slug}
+        name={emoji.name}
+        displayName={emoji.displayName}
+        imageUrl={getImageUrl(emoji)}
+        ext={emoji.ext}
+      />
+    ))}
+  </div>
+
+  <section class="mt-12 text-center">
+    <a
+      href="/all"
+      class="inline-flex items-center gap-2 rounded-lg border border-(--border) px-6 py-3 font-medium transition-colors hover:border-(--accent)"
+    >
+      Browse all {siteStats.total} emojis
+    </a>
+  </section>
+</Base>

@@ -1,0 +1,41 @@
+---
+import Base from "@/layouts/Base.astro";
+import SearchBar from "@/components/SearchBar.astro";
+import EmojiCard from "@/components/EmojiCard.astro";
+import { emojis, getImageUrl, siteStats } from "@/lib/emojis";
+
+const sorted = [...emojis].sort((a, b) => a.displayName.localeCompare(b.displayName));
+---
+
+<Base
+  title="All emojis — morepepe"
+  description={`Browse all ${siteStats.total} Pepe & friends emojis for Slack and Discord.`}
+>
+  <section class="mb-8 text-center">
+    <h1 class="mb-4 text-2xl font-bold">All emojis</h1>
+    <SearchBar />
+  </section>
+
+  <div class="mb-4 flex items-center justify-between">
+    <p class="text-sm text-(--text-muted)">{siteStats.total} emojis</p>
+    <a
+      href="/emojis/morepepe-all.zip"
+      download
+      class="inline-flex items-center gap-2 rounded-lg bg-(--accent) px-4 py-2 text-sm font-medium text-black transition-opacity hover:opacity-80"
+    >
+      Download all ({siteStats.zipSizeHuman})
+    </a>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+    {sorted.map((emoji) => (
+      <EmojiCard
+        slug={emoji.slug}
+        name={emoji.name}
+        displayName={emoji.displayName}
+        imageUrl={getImageUrl(emoji)}
+        ext={emoji.ext}
+      />
+    ))}
+  </div>
+</Base>

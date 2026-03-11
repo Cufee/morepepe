@@ -1,0 +1,130 @@
+---
+import Base from "@/layouts/Base.astro";
+import { emojis, getEmoji, getImageUrl, getDirectImageUrl } from "@/lib/emojis";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return emojis.map((e) => ({ params: { slug: e.slug } }));
+};
+
+const { slug } = Astro.params;
+const emoji = getEmoji(slug)!;
+const imageUrl = getImageUrl(emoji);
+const directImageUrl = getDirectImageUrl(emoji);
+const title = `${emoji.displayName} — morepepe`;
+const description = `${emoji.description}. ${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
+---
+
+<Base title={title} description={description} ogImage={directImageUrl}>
+  <div class="mx-auto max-w-2xl">
+    <a href="/" class="mb-6 inline-flex items-center gap-1 text-sm text-(--text-muted) hover:text-(--accent)">
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Back
+    </a>
+
+    <div class="mb-8 text-center">
+      <h1 class="mb-2 text-3xl font-bold">{emoji.displayName}</h1>
+      <p class="text-(--text-muted)">{emoji.description}</p>
+    </div>
+
+    <!-- Dark/Light preview -->
+    <div class="mb-8 grid grid-cols-2 gap-4">
+      <div class="flex flex-col items-center rounded-xl border border-(--border) bg-white p-8">
+        <img src={imageUrl} alt={emoji.displayName} width="128" height="128" class="h-24 w-24 object-contain" />
+        <span class="mt-3 text-xs text-gray-500">Light</span>
+      </div>
+      <div class="flex flex-col items-center rounded-xl border border-(--border) bg-[#1a1a1a] p-8">
+        <img src={imageUrl} alt={emoji.displayName} width="128" height="128" class="h-24 w-24 object-contain" />
+        <span class="mt-3 text-xs text-gray-400">Dark</span>
+      </div>
+    </div>
+
+    <!-- Info -->
+    <div class="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+      <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
+        <p class="text-xs text-(--text-muted)">Format</p>
+        <p class="font-medium uppercase">{emoji.ext}</p>
+      </div>
+      <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
+        <p class="text-xs text-(--text-muted)">Size</p>
+        <p class="font-medium">{emoji.fileSizeHuman}</p>
+      </div>
+      <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
+        <p class="text-xs text-(--text-muted)">Dimensions</p>
+        <p class="font-medium">{emoji.width}x{emoji.height}</p>
+      </div>
+      <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
+        <p class="text-xs text-(--text-muted)">Type</p>
+        <p class="font-medium">{emoji.fileType}</p>
+      </div>
+    </div>
+
+    <!-- Tags -->
+    {emoji.tags.length > 0 && (
+      <div class="mb-8">
+        <div class="flex flex-wrap gap-2">
+          {emoji.tags.map((tag) => (
+            <span class="rounded-full border border-(--border) bg-(--bg-card) px-3 py-1 text-xs text-(--text-muted)">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Actions -->
+    <div class="flex flex-wrap gap-3">
+      <a
+        href={imageUrl}
+        download={emoji.name}
+        class="inline-flex items-center gap-2 rounded-lg bg-(--accent) px-5 py-2.5 font-medium text-black transition-opacity hover:opacity-80"
+      >
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
+        Download
+      </a>
+      <button
+        id="copy-btn"
+        data-image-url={imageUrl}
+        data-direct-url={directImageUrl}
+        data-ext={emoji.ext}
+        class="inline-flex items-center gap-2 rounded-lg border border-(--border) bg-(--bg-card) px-5 py-2.5 font-medium transition-colors hover:border-(--accent)"
+      >
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+        </svg>
+        <span id="copy-label">Copy</span>
+      </button>
+    </div>
+  </div>
+</Base>
+
+<script is:inline>
+  const btn = document.getElementById("copy-btn");
+  const label = document.getElementById("copy-label");
+  btn.addEventListener("click", async () => {
+    const ext = btn.dataset.ext;
+    try {
+      if (ext === "png") {
+        const res = await fetch(btn.dataset.imageUrl);
+        const blob = await res.blob();
+        await navigator.clipboard.write([
+          new ClipboardItem({ "image/png": blob }),
+        ]);
+      } else {
+        // GIFs can't be copied as images — copy the direct URL instead
+        await navigator.clipboard.writeText(btn.dataset.directUrl);
+      }
+      label.textContent = ext === "png" ? "Copied!" : "URL copied!";
+      setTimeout(() => { label.textContent = "Copy"; }, 2000);
+    } catch {
+      // Fallback: copy URL
+      await navigator.clipboard.writeText(btn.dataset.directUrl);
+      label.textContent = "URL copied!";
+      setTimeout(() => { label.textContent = "Copy"; }, 2000);
+    }
+  });
+</script>
