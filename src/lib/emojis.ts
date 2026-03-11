@@ -5,7 +5,7 @@ export interface Emoji {
   slug: string;
   name: string;
   displayName: string;
-  description: string;
+
   tags: string[];
   width: number;
   height: number;

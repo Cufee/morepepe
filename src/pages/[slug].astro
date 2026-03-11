@@ -13,8 +13,7 @@ const emoji = getEmoji(slug)!;
 const imageUrl = getImageUrl(emoji);
 const directImageUrl = getDirectImageUrl(emoji);
 const title = `${emoji.displayName} — morepepe`;
-const meta = `${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
-const description = emoji.description ? `${emoji.description}. ${meta}` : meta;
+const description = `${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
 const related = emoji.related.map((s) => getEmoji(s)!).filter(Boolean);
 ---
 
@@ -29,7 +28,6 @@ const related = emoji.related.map((s) => getEmoji(s)!).filter(Boolean);
 
     <div class="mb-8 text-center">
       <h1 class="mb-2 text-3xl font-bold">{emoji.displayName}</h1>
-      <p class="text-(--text-muted)">{emoji.description}</p>
     </div>
 
     <!-- Dark/Light preview -->

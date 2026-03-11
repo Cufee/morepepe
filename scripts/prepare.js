@@ -26,7 +26,7 @@ const emojis = manifest.map((e) => {
     slug,
     name: e.name,
     displayName: stem.replace(/-/g, " "),
-    description: e.description || "",
+
     tags: e.tags || [],
     width: e.width,
     height: e.height,
@@ -75,7 +75,6 @@ writeFileSync(join(DATA, "emojis.json"), JSON.stringify(emojis));
 const searchData = emojis.map((e) => ({
   s: e.slug,
   n: e.displayName,
-  d: e.description,
   t: e.tags.join(" "),
   f: e.name,
   e: e.ext,
