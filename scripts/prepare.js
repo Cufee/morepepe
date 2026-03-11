@@ -1,6 +1,6 @@
-import { execSync } from "node:child_process";
 import {
   copyFileSync,
+  createWriteStream,
   existsSync,
   mkdirSync,
   readdirSync,
@@ -8,6 +8,7 @@ import {
   writeFileSync,
 } from "node:fs";
 import { join } from "node:path";
+import archiver from "archiver";
 import Fuse from "fuse.js";
 
 const ASSETS = "assets";
@@ -111,13 +112,7 @@ writeFileSync(join("public", "search-index.json"), JSON.stringify(searchData));
 
 // Build zip
 const zipPath = join(OUT, "morepepe-all.zip");
-const absZip = join(process.cwd(), zipPath);
-const filesToZip = emojis.map((e) => e.name).join("\n");
-execSync(`zip -j '${absZip}' -@`, {
-  input: filesToZip,
-  cwd: ASSETS,
-  stdio: ["pipe", "pipe", "pipe"],
-});
+await buildZip(zipPath, emojis);
 
 const zipSize = readFileSync(zipPath).length;
 const stats = {
@@ -132,6 +127,20 @@ writeFileSync(join(DATA, "stats.json"), JSON.stringify(stats));
 console.log(
   `Prepared ${emojis.length} emojis (${stats.png} PNG, ${stats.gif} GIF), zip: ${stats.zipSizeHuman}`,
 );
+
+function buildZip(outPath, items) {
+  return new Promise((resolve, reject) => {
+    const output = createWriteStream(outPath);
+    const archive = archiver("zip", { zlib: { level: 9 } });
+    output.on("close", resolve);
+    archive.on("error", reject);
+    archive.pipe(output);
+    for (const e of items) {
+      archive.file(join(ASSETS, e.name), { name: e.name });
+    }
+    archive.finalize();
+  });
+}
 
 function cleanDescription(desc) {
   if (!desc) return "";
