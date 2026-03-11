@@ -13,6 +13,7 @@ export interface Emoji {
   fileSizeHuman: string;
   fileType: string;
   ext: string;
+  related: string[];
 }
 
 export const emojis: Emoji[] = data as Emoji[];

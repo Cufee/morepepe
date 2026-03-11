@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync, copyFileSync, existsSync, mkdirSync, readdirSync } from "fs";
 import { execSync } from "child_process";
 import { join, basename } from "path";
+import Fuse from "fuse.js";
 
 const ASSETS = "assets";
 const OUT = "public/emojis";
@@ -54,6 +55,27 @@ const slugSet = new Set();
 for (const e of emojis) {
   if (slugSet.has(e.slug)) throw new Error(`Duplicate slug: ${e.slug} (${e.name})`);
   slugSet.add(e.slug);
+}
+
+// Compute related emojis using Fuse.js
+const RELATED_COUNT = 6;
+const fuse = new Fuse(emojis, {
+  keys: [
+    { name: "displayName", weight: 3 },
+    { name: "tags", weight: 2 },
+    { name: "description", weight: 1 },
+  ],
+  threshold: 0.6,
+  includeScore: true,
+});
+
+for (const emoji of emojis) {
+  const query = [emoji.displayName, ...emoji.tags].join(" ");
+  const hits = fuse.search(query);
+  emoji.related = hits
+    .filter((r) => r.item.slug !== emoji.slug)
+    .slice(0, RELATED_COUNT)
+    .map((r) => r.item.slug);
 }
 
 // Copy images

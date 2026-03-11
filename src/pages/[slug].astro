@@ -1,5 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
+import EmojiCard from "@/components/EmojiCard.astro";
 import { emojis, getEmoji, getImageUrl, getDirectImageUrl } from "@/lib/emojis";
 import type { GetStaticPaths } from "astro";
 
@@ -14,6 +15,7 @@ const directImageUrl = getDirectImageUrl(emoji);
 const title = `${emoji.displayName} — morepepe`;
 const meta = `${emoji.ext.toUpperCase()}, ${emoji.fileSizeHuman}, ${emoji.width}x${emoji.height}px. Download for Slack & Discord.`;
 const description = emoji.description ? `${emoji.description}. ${meta}` : meta;
+const related = emoji.related.map((s) => getEmoji(s)!).filter(Boolean);
 ---
 
 <Base title={title} description={description} ogImage={directImageUrl}>
@@ -100,6 +102,23 @@ const description = emoji.description ? `${emoji.description}. ${meta}` : meta;
         <span id="copy-label">Copy</span>
       </button>
     </div>
+
+    {related.length > 0 && (
+      <section class="mt-12">
+        <h2 class="mb-4 text-lg font-semibold">Related</h2>
+        <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          {related.map((r) => (
+            <EmojiCard
+              slug={r.slug}
+              name={r.name}
+              displayName={r.displayName}
+              imageUrl={getImageUrl(r)}
+              ext={r.ext}
+            />
+          ))}
+        </div>
+      </section>
+    )}
   </div>
 </Base>
 
