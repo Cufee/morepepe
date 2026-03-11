@@ -36,13 +36,15 @@ npm run format     # format all files
 
 ## Adding emojis
 
-1. Add image files to `assets/`
-2. Add entries to `assets/manifest.json` with `name`, `description`, `tags`, `fileSize`, `fileSizeHuman`, `width`, `height`, and `fileType`
+1. Add image files to `public/emojis/`
+2. Add entries to `public/emojis/manifest.json` with `name`, `description`, `tags`, `width`, `height`, and `fileType
 3. Rebuild
 
 ## Deploy
 
-Connect the repo to Cloudflare Pages:
+Hosted on Cloudflare Pages. Configure these settings in the dashboard under **Workers & Pages > morepepe > Settings > Build & deployments**:
 
-- Build command: `npm run build`
-- Output directory: `dist`
+- **Build command**: `npm run build`
+- **Build output directory**: `dist`
+- **Deploy command (production)**: `npx wrangler pages deploy dist --project-name=morepepe`
+- **Deploy command (preview)**: `npx wrangler pages deploy dist --project-name=morepepe --branch=dev`
