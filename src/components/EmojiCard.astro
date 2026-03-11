@@ -17,7 +17,7 @@ const { slug, name, displayName, imageUrl } = Astro.props;
       width="128"
       height="128"
       loading="lazy"
-      class="mx-auto h-24 w-24 object-contain"
+      class="aspect-square w-full object-contain text-transparent"
     />
     <p class="mt-2 truncate text-sm font-medium">{displayName}</p>
   </a>

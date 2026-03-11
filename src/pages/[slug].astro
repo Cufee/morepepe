@@ -43,7 +43,7 @@ const related = emoji.related.map((s) => getEmoji(s)!).filter(Boolean);
     </div>
 
     <!-- Info -->
-    <div class="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
+    <div class="mb-8 grid grid-cols-3 gap-4">
       <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
         <p class="text-xs text-(--text-muted)">Format</p>
         <p class="font-medium uppercase">{emoji.ext}</p>
@@ -55,10 +55,6 @@ const related = emoji.related.map((s) => getEmoji(s)!).filter(Boolean);
       <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
         <p class="text-xs text-(--text-muted)">Dimensions</p>
         <p class="font-medium">{emoji.width}x{emoji.height}</p>
-      </div>
-      <div class="rounded-lg border border-(--border) bg-(--bg-card) p-3 text-center">
-        <p class="text-xs text-(--text-muted)">Type</p>
-        <p class="font-medium">{emoji.fileType}</p>
       </div>
     </div>
 

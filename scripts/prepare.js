@@ -1,7 +1,6 @@
 import { createWriteStream, existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import archiver from "archiver";
-import Fuse from "fuse.js";
 
 const EMOJIS = "public/emojis";
 const DATA = "src/data";
@@ -45,25 +44,29 @@ for (const e of emojis) {
   slugSet.add(e.slug);
 }
 
-// Compute related emojis using Fuse.js
+// Compute related emojis using tag overlap + name similarity
 const RELATED_COUNT = 6;
-const fuse = new Fuse(emojis, {
-  keys: [
-    { name: "displayName", weight: 3 },
-    { name: "tags", weight: 2 },
-    { name: "description", weight: 1 },
-  ],
-  threshold: 0.6,
-  includeScore: true,
-});
+
+const tagSets = new Map(emojis.map((e) => [e.slug, new Set(e.tags)]));
+const nameWords = new Map(emojis.map((e) => [e.slug, new Set(e.displayName.split(" "))]));
 
 for (const emoji of emojis) {
-  const query = [emoji.displayName, ...emoji.tags].join(" ");
-  const hits = fuse.search(query);
-  emoji.related = hits
-    .filter((r) => r.item.slug !== emoji.slug)
-    .slice(0, RELATED_COUNT)
-    .map((r) => r.item.slug);
+  const eTags = tagSets.get(emoji.slug);
+  const eWords = nameWords.get(emoji.slug);
+
+  const scored = [];
+  for (const other of emojis) {
+    if (other.slug === emoji.slug) continue;
+    const oTags = tagSets.get(other.slug);
+    const oWords = nameWords.get(other.slug);
+    let score = 0;
+    for (const t of eTags) if (oTags.has(t)) score += 2;
+    for (const w of eWords) if (oWords.has(w)) score += 3;
+    if (score > 0) scored.push({ slug: other.slug, score });
+  }
+
+  scored.sort((a, b) => b.score - a.score);
+  emoji.related = scored.slice(0, RELATED_COUNT).map((r) => r.slug);
 }
 
 // Write data files
