@@ -42,9 +42,13 @@ npm run format     # format all files
 
 ## Deploy
 
-Hosted on Cloudflare Pages. Configure these settings in the dashboard under **Workers & Pages > morepepe > Settings > Build & deployments**:
+Deployed via GitHub Actions (`.github/workflows/deploy.yml`). On push to `main`:
 
-- **Build command**: `npm run build`
-- **Build output directory**: `dist`
-- **Deploy command (production)**: `npx wrangler pages deploy dist --project-name=morepepe`
-- **Deploy command (preview)**: `npx wrangler pages deploy dist --project-name=morepepe --branch=dev`
+1. Builds the site (`npm run build`)
+2. Uploads the emoji zip to a GitHub release (Cloudflare Pages has a 25 MB file size limit)
+3. Deploys the site to Cloudflare Pages
+
+### Required GitHub secrets
+
+- `CLOUDFLARE_API_TOKEN` — API token with **Cloudflare Pages:Edit** permission
+- `CLOUDFLARE_ACCOUNT_ID` — found in the Cloudflare dashboard URL or **Workers & Pages > Overview**
